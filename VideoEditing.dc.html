@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./support.js"></script>
+  </head>
+  <body>
+    <x-dc>
+      <helmet>
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="assets/favicon_io/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="assets/favicon_io/favicon-16x16.png"
+        />
+        <link rel="shortcut icon" href="assets/favicon_io/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="assets/favicon_io/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+        <title>Video Editing & AI Videos — WeblyPro</title>
+      </helmet>
+      <dc-import
+        name="ServicePage"
+        data="{{ data }}"
+        hint-size="100%,2400px"
+      ></dc-import>
+    </x-dc>
+    <script type="text/x-dc" data-dc-script data-props="{}">
+      class Component extends DCLogic {
+        renderVals(){
+          return { data: {
+            eyebrow:'Video Editing & AI Videos',
+            title:'Video content that stops the scroll.',
+            intro:'From AI-powered video generation to professional editing, we create compelling reels, shorts and product videos that capture attention and drive engagement.',
+            heroImageNote:'Video still / thumbnail · replace (9:16 reel)',
+            featuresTitle:'Every format your channels need.',
+            features:[
+              {t:'Reels & shorts',d:'Snappy vertical edits for Instagram, TikTok and YouTube Shorts.'},
+              {t:'Client video editing',d:'We turn your raw footage into polished, on-brand videos.'},
+              {t:'Product showcases',d:'Clean product videos that highlight features and drive sales.'},
+              {t:'AI character videos',d:'AI-generated character videos, fully edited and ready to post.'},
+              {t:'Real character editing',d:'Real-person / talking-head videos edited with motion & captions.'},
+              {t:'Cartoon & animation',d:'Cartoon-style and animated explainer videos for your brand.'},
+              {t:'AI video production',d:'AI-generated video and creatives for fast, scalable content.'},
+              {t:'Motion & captions',d:'Animated text, captions, transitions and sound design.'},
+              {t:'Fast turnaround',d:'Quick delivery so you never miss a content window.'},
+            ],
+            galleryTitle:'Video work & AI creatives',
+            galleryNote:'Reels, YouTube edits, AI character videos and animation we have produced. Replace these placeholders with your real video thumbnails — YouTube 16:9 landscape, TikTok/Reels 1080×1920 (9:16).',
+            gallery:[
+              {label:'Reel',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842443/reel-1_sllpi7.png',ratio:'1016/1798',accent:'a'},
+              {label:'AI character video 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842130/ai-character-1.png',ratio:'1012/1796',accent:'b'},
+              {label:'AI character video 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842137/ai-charcter-2.png',ratio:'1020/1800',accent:'c'},
+              {label:'AI character video 3',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842149/ai-chartacter-2.png',ratio:'1012/1796',accent:'a'},
+              {label:'Cartoon animation',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842176/cartoon-animation.png',ratio:'1012/1798',accent:'b'},
+              {label:'Real character video 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842204/charcter-video-1.png',ratio:'1008/1798',accent:'c'},
+              {label:'Real character video 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842208/charcter-video-2.png',ratio:'1010/1782',accent:'a'},
+              {label:'E-commerce video',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842209/ecommerce-video.png',ratio:'512/916',accent:'b'},
+              {label:'YouTube ad video 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842431/horizontal-ai-video-1.png',ratio:'2880/1612',accent:'c'},
+              {label:'YouTube ad video 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842448/horizontal-ai-video-3.png',ratio:'2880/1616',accent:'a'},
+              {label:'Consultancy video edit',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781842448/horizontal-video_con.png',ratio:'2870/1630',accent:'b'},
+
+            ],
+            packages:[
+              {name:'Reels & Shorts',for:'Social-first content',price:'1,500',unit:'',note:'Per reel / short',items:['1 reel or short (up to 60s)','Trendy cuts & transitions','Captions & text animation','Licensed music','1 revision','Fast delivery']},
+              {name:'Editing & Product',for:'Polished brand videos',price:'2,000',unit:'–4,000',note:'Editing & product showcase',featured:true,items:['Real character video editing (Rs. 2,000)','Product showcase (Rs. 3,000–4,000)','YouTube & TikTok formats','Color grading & sound','Multiple revisions','Multiple formats exported']},
+              {name:'AI Video Production',for:'Scalable AI content',price:'4,000',unit:'–5,000',note:'AI-generated video',items:['AI character video generation','AI avatars / voiceover','Cartoon & animation video','Script assistance','Brand styling','Revisions included','Ready for ads & social']},
+            ],
+            ctaTitle:'Ready to make content that performs?',
+            ctaText:"Send us your footage or idea and we'll create video your audience can't scroll past.",
+          }};
+        }
+      }
+    </script>
+  </body>
+</html>

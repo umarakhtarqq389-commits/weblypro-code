@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>UI/UX Design — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2400px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'UI/UX Design',
+      title:'Interfaces people actually enjoy using.',
+      intro:'Wireframes, prototypes and pixel-perfect UI design — built around real user research so every screen looks great and converts.',
+      heroImageNote:'UI/UX design mockup · replace (landscape ~4:3)',
+      featuresTitle:'Design that’s as smart as it looks.',
+      features:[
+        {t:'User research',d:'Understanding your users before we design a single screen.'},
+        {t:'Wireframing',d:'Low-fidelity flows that map out structure before visual design.'},
+        {t:'UI design',d:'Pixel-perfect, on-brand interfaces for web and mobile.'},
+        {t:'Prototyping',d:'Clickable prototypes so you can test the experience before development.'},
+        {t:'Design systems',d:'Reusable components and style guides that scale with your product.'},
+        {t:'Usability testing',d:'Real feedback loops to refine the experience before launch.'},
+      ],
+      galleryTitle:'UI/UX projects',
+      galleryNote:'Replace these placeholders with screenshots of your real UI/UX work (landscape works best).',
+      gallery:[
+        {label:'WeblyPro home page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854226/weblypro.png',ratio:'446/1384',accent:'b',fit:'contain'},
+        {label:'Figma design 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854169/figma2.png',ratio:'936/750',accent:'c'},
+        {label:'Crelix home hero',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854209/crelix-home.png',ratio:'2156/1744',accent:'b'},
+        {label:'Figma design 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854198/figma-3.png',ratio:'936/750',accent:'b'},
+        {label:'Lightning Ads home page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854216/lightning-ads_1.png',ratio:'1768/1558',accent:'c'},
+        {label:'AdsGorilla home page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854205/ads-gorilla-home.png',ratio:'4/5',accent:'a'},
+        {label:'InsightFlow home page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854212/insightflow.png',ratio:'1146/1232',accent:'c',fit:'contain'},
+        {label:'Softnix home page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854224/softinxt.png',ratio:'2870/1798',accent:'a'},
+      ],
+      packages:[
+        {name:'Starter',for:'Simple apps & landing pages',price:'15,000',unit:'+',note:'UI design only',items:['Up to 6 screens','Mobile responsive design','Style guide','Figma source files','1 revision · 5–7 days']},
+        {name:'Standard',for:'Full product design',price:'35,000',unit:'+',note:'UX + UI design',featured:true,items:['Up to 15 screens','User flow & wireframes','Custom UI design','Clickable prototype','Design system basics','2 revisions · 10–15 days']},
+        {name:'Complete',for:'Complex products & platforms',price:'60,000',unit:'+',note:'Research, UX & UI',items:['User research & testing','Unlimited screens','Full design system','Interactive prototype','Developer handoff','Unlimited revisions']},
+      ],
+      ctaTitle:'Ready to design an experience users love?',
+      ctaText:"Tell us about your product and we'll map out a UI/UX plan that fits your users and your budget.",
+    }};
+  }
+}
+</script>
+</body>
+</html>

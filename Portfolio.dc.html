@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <script src="scripts/wp-anim.js"></script>
+  <title>Our Projects — WeblyPro</title>
+</helmet>
+
+<div style="background:#fff; font-family:'DM Sans',sans-serif; color:#161B33; overflow-x:hidden;">
+  <dc-import name="WeblyNav" active="portfolio" hint-size="100%,120px"></dc-import>
+
+  <!-- HERO -->
+  <section style="position:relative; overflow:hidden; background:#fff; padding:clamp(48px,7vw,84px) 0 clamp(40px,5vw,56px);">
+    <div style="position:absolute; inset:0; background:radial-gradient(60% 50% at 50% -10%,rgba(75,123,245,.13),transparent 60%),radial-gradient(40% 40% at 85% 0%,rgba(139,92,246,.11),transparent 60%);"></div>
+    <div style="position:absolute; inset:0; background-image:linear-gradient(rgba(75,123,245,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(75,123,245,.045) 1px,transparent 1px); background-size:52px 52px; mask-image:radial-gradient(circle at 50% 0%,#000,transparent 70%); -webkit-mask-image:radial-gradient(circle at 50% 0%,#000,transparent 70%);"></div>
+    <div style="position:relative; max-width:880px; margin:0 auto; padding:0 clamp(24px,5vw,48px); text-align:center;">
+      <div style="display:inline-flex; align-items:center; gap:10px; margin-bottom:18px; justify-content:center;" data-reveal><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Our Projects</span></div>
+      <h1 style="margin:0 auto; max-width:15ch; font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(36px,5.4vw,64px); line-height:1.04; letter-spacing:-.03em; color:#10162E;" data-reveal>Work that <span style="{{ grad }}">moved the numbers.</span></h1>
+      <p style="margin:24px auto 0; max-width:580px; font-size:clamp(16px,1.7vw,18px); line-height:1.7; color:#525C78;" data-reveal>Real builds for real businesses across Pakistan and beyond — measured by the impact they create, not the hours billed.</p>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section style="padding:clamp(48px,6vw,72px) 0 clamp(40px,5vw,56px); background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(32px,5vw,64px); align-items:center; border:1px solid rgba(22,27,51,.08); border-radius:26px; padding:clamp(24px,3vw,40px); background:linear-gradient(135deg,#F8FAFF,#fff); box-shadow:0 30px 70px -44px rgba(31,42,90,.4);" data-wp-featgrid data-reveal>
+        <div style="position:relative;">
+          <div data-pimg style="position:relative; aspect-ratio:16/11; border-radius:18px; overflow:hidden; background:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781797364/textilehubonline.png') center/cover, linear-gradient(135deg,#4B7BF5,#8B5CF6); display:flex; align-items:center; justify-content:center;">
+          </div>
+        </div>
+        <div>
+          <span style="{{ tag }}">Featured · E-Commerce</span>
+          <h2 style="font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(26px,3.2vw,38px); line-height:1.12; letter-spacing:-.02em; color:#10162E; margin:16px 0 12px;">Textile Hub</h2>
+          <p style="{{ lead }}">We rebuilt Textile Hub's online store to handle a catalog of 500+ products without sacrificing speed — fast browsing, smooth checkout and SEO built in from day one.</p>
+          <div style="display:flex; gap:26px; margin-top:24px;">
+            <div><div style="{{ fNum }}">500+</div><div style="{{ fLbl }}">Products</div></div>
+            <div><div style="{{ fNum }}">1.4s</div><div style="{{ fLbl }}">Load time</div></div>
+            <div><div style="{{ fNum }}">+60%</div><div style="{{ fLbl }}">Sales</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRID -->
+  <section style="padding:clamp(20px,3vw,32px) 0 clamp(72px,9vw,110px); background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px;" data-wp-portgrid>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg1 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699260/mes-solution.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">Web Development</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">MES IT Solutions</h4><p style="{{ pDesc }}">Corporate IT services site with a lead-focused funnel and clean UX.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+85%</b><span style="{{ pLbl }}">Traffic</span></div><div><b style="{{ pNum }}">2.1s</b><span style="{{ pLbl }}">Load</span></div><div><b style="{{ pNum }}">+40%</b><span style="{{ pLbl }}">Leads</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg2 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699257/dillangzo-academy.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">Education</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Dillangzo Academy</h4><p style="{{ pDesc }}">E-learning platform with an integrated admissions portal.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+180%</b><span style="{{ pLbl }}">Enrollment</span></div><div><b style="{{ pNum }}">1.8s</b><span style="{{ pLbl }}">Load</span></div><div><b style="{{ pNum }}">92%</b><span style="{{ pLbl }}">Completion</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg3 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699392/konnect-study.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">Study Abroad</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Konnect Study Consultant</h4><p style="{{ pDesc }}">Study-abroad consultancy website optimized for student leads.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+40%</b><span style="{{ pLbl }}">Speed</span></div><div><b style="{{ pNum }}">+55%</b><span style="{{ pLbl }}">Inquiries</span></div><div><b style="{{ pNum }}">1.4s</b><span style="{{ pLbl }}">Load</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg2 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699265/abroadmentors.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">Study Abroad</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Abroad Mentors</h4><p style="{{ pDesc }}">Study-abroad consultancy website optimized for student leads.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+120%</b><span style="{{ pLbl }}">Leads</span></div><div><b style="{{ pNum }}">1.6s</b><span style="{{ pLbl }}">Load</span></div><div><b style="{{ pNum }}">4.9★</b><span style="{{ pLbl }}">Rating</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg1 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699267/haqbaba.com.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">E-Commerce · Orders</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Haq Baba</h4><p style="{{ pDesc }}">Full management — website orders, video editing and graphics.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">100%</b><span style="{{ pLbl }}">Managed</span></div><div><b style="{{ pNum }}">+45%</b><span style="{{ pLbl }}">Orders</span></div><div><b style="{{ pNum }}">24/7</b><span style="{{ pLbl }}">Support</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg3 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781800048/crelix-ai.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">AI Services</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Crelix AI</h4><p style="{{ pDesc }}">AI-powered creative tools and automation built for the brand.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+90%</b><span style="{{ pLbl }}">Reach</span></div><div><b style="{{ pNum }}">2×</b><span style="{{ pLbl }}">Output</span></div><div><b style="{{ pNum }}">5★</b><span style="{{ pLbl }}">Rating</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg1 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699262/musatravel.png'); background-size:cover; background-position:center;" data-pimg><span style="{{ pTag }}">Travel &amp; Tours</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Musa Travel &amp; Tours</h4><p style="{{ pDesc }}">Travel booking website with tour packages and inquiry handling.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+90%</b><span style="{{ pLbl }}">Bookings</span></div><div><b style="{{ pNum }}">1.5s</b><span style="{{ pLbl }}">Load</span></div><div><b style="{{ pNum }}">4.8★</b><span style="{{ pLbl }}">Rating</span></div></div></div>
+        </div>
+        <a href="Contact.dc.html" style="{{ pCard }} display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:36px 28px; background:linear-gradient(150deg,#10162E,#23305C); color:#fff; min-height:280px;" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(75,123,245,.5);" data-reveal>
+          <span style="width:54px;height:54px;border-radius:15px;background:linear-gradient(135deg,#4B7BF5,#8B5CF6);display:flex;align-items:center;justify-content:center;margin-bottom:18px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <h4 style="font-family:Syne,sans-serif; font-weight:700; font-size:21px; margin:0 0 8px;">Your project could be next</h4>
+          <p style="font-size:14px; line-height:1.6; color:rgba(255,255,255,.75); margin:0 0 22px;">Tell us what you're building and let's make it happen.</p>
+          <span style="display:inline-flex; align-items:center; gap:9px; padding:13px 24px; border-radius:12px; background:#fff; color:#10162E; font-weight:700; font-size:14.5px;">Contact Us <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="position:relative; padding:clamp(70px,9vw,110px) 0; background:#F6F7FE; overflow:hidden; border-top:1px solid rgba(22,27,51,.06);">
+    <div style="position:absolute; inset:0; background:radial-gradient(55% 75% at 50% 50%,rgba(75,123,245,.1),transparent 70%),radial-gradient(45% 55% at 82% 18%,rgba(139,92,246,.1),transparent 70%);"></div>
+    <div style="position:relative; max-width:820px; margin:0 auto; padding:0 clamp(24px,5vw,48px); text-align:center;" data-reveal>
+      <h2 style="font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(32px,4.6vw,52px); line-height:1.08; letter-spacing:-.025em; color:#10162E; margin:0 0 18px;">Your project could be <span style="{{ grad }}">next.</span></h2>
+      <p style="{{ lead }} max-width:500px; margin:0 auto 30px;">Let's create something your customers will love — and that grows your business.</p>
+      <a href="Contact.dc.html" style="{{ btnPrimary }}" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">Start Your Project <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+
+  <dc-import name="WeblyFooter" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  componentDidMount(){
+    if(!document.getElementById('wp-port-rules')){
+      const st=document.createElement('style'); st.id='wp-port-rules';
+      st.textContent=`
+        [data-port]{transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s;}
+        [data-pimg]{transition:transform .55s cubic-bezier(.22,1,.36,1);}
+        [data-port]:hover [data-pimg]{transform:scale(1.06);}
+        @media(max-width:940px){
+          [data-wp-portgrid]{grid-template-columns:1fr 1fr !important;}
+          [data-wp-featgrid]{grid-template-columns:1fr !important;}
+        }
+        @media(max-width:600px){
+          [data-wp-portgrid]{grid-template-columns:1fr !important;}
+        }`;
+      document.head.appendChild(st);
+    }
+    this.runAnim();
+  }
+  runAnim(t){ t=t||0; if(window.WPAnim){window.WPAnim.reveal(this.base);} else if(t<40){ setTimeout(()=>this.runAnim(t+1),50); } }
+  renderVals(){
+    return {
+      kDash:'width:26px; height:2px; border-radius:2px; background:linear-gradient(90deg,#4B7BF5,#8B5CF6);',
+      kDot:'width:6px; height:6px; border-radius:50%; background:#8B5CF6; box-shadow:0 0 0 4px rgba(139,92,246,.13);',
+      kText:'font-family:DM Sans,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; color:#5B6BD6;',
+      grad:'background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      lead:'font-size:16.5px; line-height:1.7; color:#525C78; margin:0;',
+      btnPrimary:'display:inline-flex; align-items:center; gap:9px; padding:16px 28px; border-radius:13px; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); color:#fff; font-weight:600; font-size:15.5px; box-shadow:0 16px 36px -14px rgba(110,107,242,.6); transition:transform .25s,box-shadow .25s;',
+      tag:'display:inline-block; padding:7px 14px; border-radius:999px; background:#F0F3FE; border:1px solid rgba(75,123,245,.16); font-size:12px; font-weight:600; color:#4257B8;',
+      fNum:'font-family:Syne,sans-serif; font-weight:700; font-size:30px; letter-spacing:-.02em; line-height:1; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      fLbl:'font-size:12.5px; color:#8A93AB; margin-top:5px;',
+
+      pCard:'background:#fff; border:1px solid rgba(22,27,51,.08); border-radius:20px; overflow:hidden; box-shadow:0 1px 2px rgba(5,13,31,.04),0 16px 40px -28px rgba(31,42,90,.3); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s;',
+      pImg1:'position:relative; aspect-ratio:16/10; background:linear-gradient(135deg,#4B7BF5,#8B5CF6); display:flex; align-items:flex-end; padding:16px;',
+      pImg2:'position:relative; aspect-ratio:16/10; background:linear-gradient(135deg,#6E6BF2,#A98BFF); display:flex; align-items:flex-end; padding:16px;',
+      pImg3:'position:relative; aspect-ratio:16/10; background:linear-gradient(135deg,#3F8CFB,#6E6BF2); display:flex; align-items:flex-end; padding:16px;',
+      pTag:'padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.92); font-size:11.5px; font-weight:600; color:#1B2240;',
+      pLabel:'position:absolute; top:14px; right:14px; font-size:10px; font-weight:600; letter-spacing:.06em; color:rgba(255,255,255,.85); text-transform:uppercase;',
+      pTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#1B2240; margin:0 0 6px;',
+      pDesc:'font-size:14px; line-height:1.6; color:#6A7390; margin:0 0 18px;',
+      pMetrics:'display:flex; gap:18px; padding-top:16px; border-top:1px solid rgba(22,27,51,.07);',
+      pNum:'display:block; font-family:Syne,sans-serif; font-weight:700; font-size:18px; color:#4B7BF5; line-height:1;',
+      pLbl:'font-size:11px; color:#8A93AB; font-weight:500;',
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./support.js"></script>
+  </head>
+  <body>
+    <x-dc>
+      <helmet>
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="assets/favicon_io/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="assets/favicon_io/favicon-16x16.png"
+        />
+        <link rel="shortcut icon" href="assets/favicon_io/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="assets/favicon_io/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+        <script src="scripts/wp-anim.js"></script>
+        <title>About — WeblyPro</title>
+      </helmet>
+
+      <div
+        style="
+          background: #fff;
+          font-family: 'DM Sans', sans-serif;
+          color: #161b33;
+          overflow-x: hidden;
+        "
+      >
+        <dc-import
+          name="WeblyNav"
+          active="about"
+          hint-size="100%,120px"
+        ></dc-import>
+
+        <!-- HERO -->
+        <section
+          style="
+            position: relative;
+            overflow: hidden;
+            background: #fff;
+            padding: clamp(48px, 7vw, 84px) 0 clamp(40px, 5vw, 56px);
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              inset: 0;
+              background: radial-gradient(
+                  60% 50% at 50% -10%,
+                  rgba(75, 123, 245, 0.13),
+                  transparent 60%
+                ),
+                radial-gradient(
+                  40% 40% at 85% 0%,
+                  rgba(139, 92, 246, 0.11),
+                  transparent 60%
+                );
+            "
+          ></div>
+          <div
+            style="
+              position: absolute;
+              inset: 0;
+              background-image: linear-gradient(
+                  rgba(75, 123, 245, 0.045) 1px,
+                  transparent 1px
+                ),
+                linear-gradient(
+                  90deg,
+                  rgba(75, 123, 245, 0.045) 1px,
+                  transparent 1px
+                );
+              background-size: 52px 52px;
+              mask-image: radial-gradient(
+                circle at 50% 0%,
+                #000,
+                transparent 70%
+              );
+              -webkit-mask-image: radial-gradient(
+                circle at 50% 0%,
+                #000,
+                transparent 70%
+              );
+            "
+          ></div>
+          <div
+            style="
+              position: relative;
+              max-width: 880px;
+              margin: 0 auto;
+              padding: 0 clamp(24px, 5vw, 48px);
+              text-align: center;
+            "
+          >
+            <div
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 18px;
+                justify-content: center;
+              "
+              data-reveal
+            >
+              <span style="{{ kDash }}"></span><span style="{{ kDot }}"></span
+              ><span style="{{ kText }}">About WeblyPro</span>
+            </div>
+            <h1
+              style="
+                margin: 0 auto;
+                max-width: 15ch;
+                font-family: 'Syne', sans-serif;
+                font-weight: 700;
+                font-size: clamp(36px, 5.4vw, 64px);
+                line-height: 1.04;
+                letter-spacing: -0.03em;
+                color: #10162e;
+              "
+              data-reveal
+            >
+              We build. We grow. <span style="{{ grad }}">We scale.</span>
+            </h1>
+            <p
+              style="
+                margin: 24px auto 0;
+                max-width: 600px;
+                font-size: clamp(16px, 1.7vw, 18px);
+                line-height: 1.7;
+                color: #525c78;
+              "
+              data-reveal
+            >
+              WeblyPro is a full-service digital growth agency founded by
+              passionate tech enthusiasts. Our expert team delivers affordable,
+              high-quality digital solutions — from web development to
+              AI-powered marketing.
+            </p>
+          </div>
+        </section>
+
+        <!-- MISSION / VISION -->
+        <section style="padding: clamp(56px, 7vw, 96px) 0; background: #fff">
+          <div
+            style="
+              max-width: 1180px;
+              margin: 0 auto;
+              padding: 0 clamp(24px, 5vw, 48px);
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 24px;
+            "
+            data-wp-mvgrid
+          >
+            <div style="{{ mvCard }}" data-reveal>
+              <span style="{{ mvIco }}"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#4B7BF5"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="6" />
+                  <circle cx="12" cy="12" r="2" /></svg
+              ></span>
+              <h3 style="{{ mvTitle }}">Our Mission</h3>
+              <p style="{{ mvText }}">
+                Empower businesses with affordable, high-quality digital
+                services that drive real, measurable growth — making powerful
+                technology accessible to every ambitious business, not just the
+                largest ones.
+              </p>
+            </div>
+            <div style="{{ mvCard }}" data-reveal>
+              <span style="{{ mvIcoP }}"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#8B5CF6"
+                  stroke-width="2"
+                >
+                  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+                  <circle cx="12" cy="12" r="3" /></svg
+              ></span>
+              <h3 style="{{ mvTitle }}">Our Vision</h3>
+              <p style="{{ mvText }}">
+                To become the most trusted digital partner for businesses across
+                Pakistan and beyond — known for honest pricing, fast delivery
+                and work that genuinely moves the numbers.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- STATS -->
+        <section
+          style="
+            background: #f6f7fe;
+            border-top: 1px solid rgba(22, 27, 51, 0.06);
+            border-bottom: 1px solid rgba(22, 27, 51, 0.06);
+            padding: clamp(40px, 5vw, 60px) 0;
+          "
+        >
+          <div
+            style="
+              max-width: 1100px;
+              margin: 0 auto;
+              padding: 0 clamp(24px, 5vw, 48px);
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 24px;
+            "
+            data-wp-mini
+          >
+            <div style="text-align: center" data-reveal>
+              <div style="{{ miniNum }}" data-count="200" data-suffix="+">
+                200+
+              </div>
+              <div style="{{ miniLbl }}">Projects delivered</div>
+            </div>
+            <div style="text-align: center" data-reveal>
+              <div style="{{ miniNum }}" data-count="98" data-suffix="%">
+                98%
+              </div>
+              <div style="{{ miniLbl }}">Satisfaction</div>
+            </div>
+            <div style="text-align: center" data-reveal>
+              <div style="{{ miniNum }}" data-count="50" data-suffix="+">
+                50+
+              </div>
+              <div style="{{ miniLbl }}">Happy clients</div>
+            </div>
+            <div style="text-align: center" data-reveal>
+              <div style="{{ miniNum }}" data-count="7" data-suffix="+">7+</div>
+              <div style="{{ miniLbl }}">Expert team</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TEAM -->
+        <section style="padding: clamp(72px, 9vw, 120px) 0; background: #fff">
+          <div
+            style="
+              max-width: 1240px;
+              margin: 0 auto;
+              padding: 0 clamp(24px, 5vw, 48px);
+            "
+          >
+            <div
+              style="text-align: center; max-width: 600px; margin: 0 auto 52px"
+              data-reveal
+            >
+              <div
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 10px;
+                  margin-bottom: 18px;
+                  justify-content: center;
+                "
+              >
+                <span style="{{ kDash }}"></span><span style="{{ kDot }}"></span
+                ><span style="{{ kText }}">Meet the team</span>
+              </div>
+              <h2 style="{{ h2 }} margin-bottom:14px;">
+                The creative minds
+                <span style="{{ grad }}">behind WeblyPro.</span>
+              </h2>
+              <p style="{{ lead }}">
+                Expert designers, developers and marketers united by a passion
+                for digital excellence.
+              </p>
+            </div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 24px;
+              "
+              data-wp-teamgrid
+            >
+              <div
+                style="{{ teamCard }}"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.3);"
+                data-reveal
+                data-team
+              >
+                <div
+                  data-av
+                  style="{{ avatar1 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781875813/rehman_ceo.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Muhammad Rehman</h4>
+                <div style="{{ tRole }}">Founder &amp; CEO</div>
+                <p style="{{ tBio }}">
+                  Leads strategy and client success — making sure every project
+                  delivers real growth.
+                </p>
+              </div>
+              <div
+                style="{{ teamCard }}"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.3);"
+                data-reveal
+                data-team
+              >
+                <div
+                  data-av
+                  style="{{ avatar2 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781875830/umar.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Umar Akhtar</h4>
+                <div style="{{ tRole }}">Co-Founder &amp; CTO</div>
+                <p style="{{ tBio }}">
+                  Heads development across web, e-commerce and custom platforms.
+                </p>
+              </div>
+              <div
+                style="{{ teamCard }}"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.3);"
+                data-reveal
+                data-team
+              >
+                <div
+                  data-av
+                  style="{{ avatar3 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781875831/sadia.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Miss Sadia</h4>
+                <div style="{{ tRole }}">Digital Marketing Specialist</div>
+                <p style="{{ tBio }}">
+                  Runs social strategy and content that builds audiences and
+                  engagement.
+                </p>
+              </div>
+              <div
+                style="{{ teamCard }}"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.3);"
+                data-reveal
+                data-team
+              >
+                <div
+                  data-av
+                  style="{{ avatar2 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781875854/hamza.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Muhammad Hamza</h4>
+                <div style="{{ tRole }}">Ads &amp; Campaign Manager</div>
+                <p style="{{ tBio }}">
+                  Plans and optimizes Meta &amp; TikTok ad campaigns that
+                  convert.
+                </p>
+              </div>
+              <div
+                style="{{ teamCard }}"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.3);"
+                data-reveal
+                data-team
+              >
+                <div
+                  data-av
+                  style="{{ avatar1 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781875855/18_foqkmo.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Miss Fareeha</h4>
+                <div style="{{ tRole }}">Order Management Specialist</div>
+                <p style="{{ tBio }}">
+                  Manages client store orders end-to-end with speed and
+                  accuracy.
+                </p>
+              </div>
+              <div
+                style="{{ teamCard }}"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.3);"
+                data-reveal
+                data-team
+              >
+                <div
+                  data-av
+                  style="{{ avatar2 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781876404/naveed.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Muhammad Naveed</h4>
+                <div style="{{ tRole }}">UI/UX Designer</div>
+                <p style="{{ tBio }}">
+                  Designs wireframes, prototypes and pixel-perfect interfaces
+                  that convert.
+                </p>
+              </div>
+              <div
+                style="{{ teamCard }} grid-column:2;"
+                style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.3);"
+                data-reveal
+                data-team
+                data-team-last
+              >
+                <div
+                  data-av
+                  style="{{ avatar3 }} background-image:url('https://res.cloudinary.com/dnvkirfyz/image/upload/v1781876837/Miss%20Alisha-.png'); background-size:cover; background-position:center;"
+                ></div>
+                <h4 style="{{ tName }}">Miss Alisha</h4>
+                <div style="{{ tRole }}">Order Management Specialist</div>
+                <p style="{{ tBio }}">
+                  Handles client store operations and order fulfilment with care
+                  and precision.
+                </p>
+              </div>
+            </div>
+
+            <!-- JOIN OUR TEAM -->
+            <div
+              style="
+                margin-top: 44px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 24px;
+                background: linear-gradient(150deg, #10162e, #23305c);
+                padding: clamp(32px, 4vw, 52px);
+                text-align: center;
+                color: #fff;
+              "
+              data-reveal
+            >
+              <div
+                style="
+                  position: absolute;
+                  top: -80px;
+                  right: -40px;
+                  width: 300px;
+                  height: 300px;
+                  background: radial-gradient(
+                    circle,
+                    rgba(75, 123, 245, 0.4),
+                    transparent 65%
+                  );
+                  filter: blur(20px);
+                "
+              ></div>
+              <h3
+                style="
+                  position: relative;
+                  font-family: 'Syne', sans-serif;
+                  font-weight: 700;
+                  font-size: clamp(22px, 2.6vw, 30px);
+                  margin: 0 0 12px;
+                "
+              >
+                Join Our Team
+              </h3>
+              <p
+                style="
+                  position: relative;
+                  font-size: 15.5px;
+                  line-height: 1.7;
+                  color: rgba(255, 255, 255, 0.82);
+                  max-width: 560px;
+                  margin: 0 auto 26px;
+                "
+              >
+                Feel free to contact us if you have a real skill with AI — we're
+                always looking for talented people to grow with.
+              </p>
+              <a
+                href="Contact.dc.html"
+                style="
+                  position: relative;
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 9px;
+                  padding: 15px 28px;
+                  border-radius: 13px;
+                  background: #fff;
+                  color: #1b2240;
+                  font-weight: 700;
+                  font-size: 15px;
+                "
+                >Get in Touch
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" /></svg
+              ></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROCESS -->
+        <section
+          style="padding: clamp(72px, 9vw, 110px) 0; background: #f6f7fe"
+        >
+          <div
+            style="
+              max-width: 1240px;
+              margin: 0 auto;
+              padding: 0 clamp(24px, 5vw, 48px);
+            "
+          >
+            <div
+              style="text-align: center; max-width: 640px; margin: 0 auto 56px"
+              data-reveal
+            >
+              <div
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 10px;
+                  margin-bottom: 18px;
+                  justify-content: center;
+                "
+              >
+                <span style="{{ kDash }}"></span><span style="{{ kDot }}"></span
+                ><span style="{{ kText }}">How we work</span>
+              </div>
+              <h2 style="{{ h2 }} margin-bottom:0;">
+                A proven path from
+                <span style="{{ grad }}">idea to launch.</span>
+              </h2>
+            </div>
+            <div
+              style="
+                position: relative;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 22px;
+              "
+              data-wp-procgrid
+            >
+              <div
+                style="
+                  position: absolute;
+                  top: 36px;
+                  left: 12%;
+                  right: 12%;
+                  height: 2px;
+                  background: linear-gradient(90deg, #4b7bf5, #8b5cf6);
+                  opacity: 0.22;
+                "
+                data-wp-procline
+              ></div>
+              <div style="{{ procStep }}" data-reveal>
+                <div style="{{ procNum }}">01</div>
+                <h4 style="{{ procTitle }}">Discovery &amp; Research</h4>
+                <p style="{{ procDesc }}">
+                  We learn your business, goals and audience first.
+                </p>
+              </div>
+              <div style="{{ procStep }}" data-reveal>
+                <div style="{{ procNum }}">02</div>
+                <h4 style="{{ procTitle }}">Strategy &amp; Planning</h4>
+                <p style="{{ procDesc }}">
+                  A clear roadmap, scope and timeline — no surprises.
+                </p>
+              </div>
+              <div style="{{ procStep }}" data-reveal>
+                <div style="{{ procNum }}">03</div>
+                <h4 style="{{ procTitle }}">Design &amp; Prototype</h4>
+                <p style="{{ procDesc }}">
+                  Pixel-perfect designs you approve before we build.
+                </p>
+              </div>
+              <div style="{{ procStep }}" data-reveal>
+                <div style="{{ procNum }}">04</div>
+                <h4 style="{{ procTitle }}">Development &amp; Launch</h4>
+                <p style="{{ procDesc }}">
+                  We build, test, ship and support — on time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section
+          style="
+            position: relative;
+            padding: clamp(70px, 9vw, 110px) 0;
+            background: #fff;
+            overflow: hidden;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              inset: 0;
+              background: radial-gradient(
+                  55% 75% at 50% 50%,
+                  rgba(75, 123, 245, 0.1),
+                  transparent 70%
+                ),
+                radial-gradient(
+                  45% 55% at 82% 18%,
+                  rgba(139, 92, 246, 0.1),
+                  transparent 70%
+                );
+            "
+          ></div>
+          <div
+            style="
+              position: relative;
+              max-width: 820px;
+              margin: 0 auto;
+              padding: 0 clamp(24px, 5vw, 48px);
+              text-align: center;
+            "
+            data-reveal
+          >
+            <h2
+              style="
+                font-family: 'Syne', sans-serif;
+                font-weight: 700;
+                font-size: clamp(32px, 4.6vw, 52px);
+                line-height: 1.08;
+                letter-spacing: -0.025em;
+                color: #10162e;
+                margin: 0 0 18px;
+              "
+            >
+              Want to work <span style="{{ grad }}">with us?</span>
+            </h2>
+            <p style="{{ lead }} max-width:500px; margin:0 auto 30px;">
+              Let's discuss your ideas and build a plan for your business
+              growth.
+            </p>
+            <div
+              style="
+                display: flex;
+                flex-wrap: wrap;
+                gap: 14px;
+                justify-content: center;
+              "
+            >
+              <a
+                href="Contact.dc.html"
+                style="{{ btnPrimary }}"
+                style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);"
+                >Get in Touch
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" /></svg
+              ></a>
+              <a
+                href="Portfolio.dc.html"
+                style="{{ btnGhost }}"
+                style-hover="border-color:#4B7BF5; color:#4B7BF5;"
+                >See Our Work</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <dc-import name="WeblyFooter" hint-size="100%,440px"></dc-import>
+      </div>
+    </x-dc>
+    <script type="text/x-dc" data-dc-script data-props="{}">
+      class Component extends DCLogic {
+        componentDidMount(){
+          if(!document.getElementById('wp-about-rules')){
+            const st=document.createElement('style'); st.id='wp-about-rules';
+            st.textContent=`
+              [data-team] [data-av]{transition:transform .4s cubic-bezier(.22,1,.36,1);}
+              [data-team]:hover [data-av]{transform:scale(1.05);}
+              @media(max-width:940px){
+                [data-wp-teamgrid]{grid-template-columns:1fr 1fr !important;}
+                [data-team-last]{grid-column:1 !important;}
+                [data-wp-procgrid]{grid-template-columns:1fr 1fr !important;}
+                [data-wp-procline]{display:none !important;}
+              }
+              @media(max-width:600px){
+                [data-wp-mvgrid]{grid-template-columns:1fr !important;}
+                [data-wp-teamgrid]{grid-template-columns:1fr !important;}
+                [data-team-last]{grid-column:1 !important;}
+                [data-wp-procgrid]{grid-template-columns:1fr !important;}
+                [data-wp-mini]{grid-template-columns:1fr 1fr !important;gap:28px !important;}
+              }`;
+            document.head.appendChild(st);
+          }
+          this.runAnim();
+        }
+        runAnim(t){ t=t||0; if(window.WPAnim){window.WPAnim.reveal(this.base); window.WPAnim.counters(this.base);} else if(t<40){ setTimeout(()=>this.runAnim(t+1),50); } }
+        renderVals(){
+          const av='position:relative; aspect-ratio:1; border-radius:16px; display:flex; align-items:center; justify-content:center; margin-bottom:18px; overflow:hidden;';
+          return {
+            kDash:'width:26px; height:2px; border-radius:2px; background:linear-gradient(90deg,#4B7BF5,#8B5CF6);',
+            kDot:'width:6px; height:6px; border-radius:50%; background:#8B5CF6; box-shadow:0 0 0 4px rgba(139,92,246,.13);',
+            kText:'font-family:DM Sans,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; color:#5B6BD6;',
+            grad:'background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+            h2:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(30px,4.2vw,48px); line-height:1.1; letter-spacing:-.025em; color:#10162E; margin:0 0 18px;',
+            lead:'font-size:17px; line-height:1.7; color:#525C78; margin:0;',
+            btnPrimary:'display:inline-flex; align-items:center; gap:9px; padding:16px 28px; border-radius:13px; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); color:#fff; font-weight:600; font-size:15.5px; box-shadow:0 16px 36px -14px rgba(110,107,242,.6); transition:transform .25s,box-shadow .25s;',
+            btnGhost:'display:inline-flex; align-items:center; gap:9px; padding:15px 26px; border-radius:13px; background:#fff; border:1px solid rgba(22,27,51,.14); color:#1B2240; font-weight:600; font-size:15.5px; transition:all .25s;',
+
+            mvCard:'padding:clamp(28px,3.5vw,40px); border-radius:22px; background:#fff; border:1px solid rgba(22,27,51,.08); box-shadow:0 1px 2px rgba(5,13,31,.04),0 18px 44px -32px rgba(31,42,90,.3);',
+            mvIco:'display:inline-flex; width:52px;height:52px; border-radius:14px; align-items:center; justify-content:center; background:rgba(75,123,245,.1); margin-bottom:18px;',
+            mvIcoP:'display:inline-flex; width:52px;height:52px; border-radius:14px; align-items:center; justify-content:center; background:rgba(139,92,246,.1); margin-bottom:18px;',
+            mvTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:21px; color:#10162E; margin:0 0 10px;',
+            mvText:'font-size:15.5px; line-height:1.7; color:#525C78; margin:0;',
+
+            miniNum:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(28px,3.4vw,42px); line-height:1; letter-spacing:-.02em; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+            miniLbl:'margin-top:8px; font-size:13.5px; color:#6A7390; font-weight:500;',
+
+            teamCard:'text-align:center; padding:24px; border-radius:20px; background:#fff; border:1px solid rgba(22,27,51,.08); box-shadow:0 1px 2px rgba(5,13,31,.04),0 14px 40px -30px rgba(31,42,90,.3); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s,border-color .35s;',
+            avatar1:av+'background:linear-gradient(140deg,#4B7BF5,#6E6BF2);',
+            avatar2:av+'background:linear-gradient(140deg,#6E6BF2,#A98BFF);',
+            avatar3:av+'background:linear-gradient(140deg,#3F8CFB,#8B5CF6);',
+            avInit:'font-family:Syne,sans-serif; font-weight:700; font-size:56px; color:rgba(255,255,255,.95);',
+            tName:'font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#10162E; margin:0 0 4px;',
+            tRole:'font-size:13px; font-weight:600; color:#4B7BF5; margin-bottom:10px;',
+            tBio:'font-size:13.5px; line-height:1.6; color:#6A7390; margin:0;',
+
+            procStep:'position:relative; text-align:center; padding:0 8px;',
+            procNum:'width:72px;height:72px; margin:0 auto 18px; border-radius:22px; display:flex; align-items:center; justify-content:center; font-family:Syne,sans-serif; font-weight:700; font-size:24px; color:#fff; background:linear-gradient(135deg,#4B7BF5,#8B5CF6); box-shadow:0 16px 32px -12px rgba(110,107,242,.55); position:relative; z-index:2;',
+            procTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:16.5px; color:#1B2240; margin:0 0 8px;',
+            procDesc:'font-size:13.5px; line-height:1.6; color:#6A7390; margin:0;',
+          };
+        }
+      }
+    </script>
+  </body>
+</html>

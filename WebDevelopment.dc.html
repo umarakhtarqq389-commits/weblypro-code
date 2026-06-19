@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>Website Development — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2400px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'Website Development',
+      title:'Custom websites that load fast and convert.',
+      intro:'We design and build lightning-fast, mobile-responsive websites with modern stacks — React, Node.js, PHP and more — engineered to grow your business and rank on Google.',
+      heroImageNote:'Website project screenshot · replace (landscape ~4:3)',
+      featuresTitle:'Built right, from the first line of code.',
+      features:[
+        {t:'Modern tech stack',d:'React, Vue, Node.js, PHP & MySQL — chosen to fit your project, not the other way around.'},
+        {t:'Mobile-first & responsive',d:'Flawless on every screen size, from phones to ultrawide monitors.'},
+        {t:'Blazing performance',d:'Optimized to load in under 2 seconds for happier users and better rankings.'},
+        {t:'SEO foundations',d:'Clean markup, fast Core Web Vitals and on-page SEO baked in from day one.'},
+        {t:'CMS & integrations',d:'Easy content editing plus payment, CRM and API integrations as needed.'},
+        {t:'Ongoing support',d:'We stay on after launch with maintenance, fixes and improvements.'},
+      ],
+      galleryTitle:'Recent website projects',
+      galleryNote:'A selection of sites we have designed and built. Replace these placeholders with your real project screenshots (landscape works best).',
+      gallery:[
+        {label:'MES IT Solutions',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699260/mes-solution.png',ratio:'16/10',accent:'a'},
+        {label:'Dillangzo Academy',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699257/dillangzo-academy.png',ratio:'16/9',accent:'b'},
+        {label:'Musa Travel & Tours',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699262/musatravel.png',ratio:'16/12',accent:'c'},
+        {label:'Abroad Mentors',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699265/abroadmentors.png',ratio:'16/10',accent:'b'},
+        {label:'Textile Hub',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781797364/textilehubonline.png',ratio:'16/11',accent:'a'},
+        {label:'Konnect Study Advisor',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699392/konnect-study.png',ratio:'16/9',accent:'c'},
+      ],
+      packages:[
+        {name:'Starter',for:'Small businesses & startups',price:'15,000',unit:'–20,000',note:'3–5 page website',items:['3–5 page responsive website','Mobile responsive design','Basic SEO setup','Contact form & WhatsApp','Google Maps included','1 revision · 5–7 days delivery']},
+        {name:'E-Commerce',for:'Online stores ready to sell',price:'50,000',unit:'+',note:'Full Shopify / WooCommerce store',featured:true,items:['Full Shopify/WooCommerce setup','Product listings & catalog','Payment gateway integration','CMS / APIs integration','SEO optimized','2 revisions · 10–15 days delivery']},
+        {name:'Custom / Enterprise',for:'Complex, custom-built platforms',price:'35,000',unit:'–80,000+',note:'Full custom coding',items:['Full custom coding','Complex features & logic','CMS / APIs integration','Admin dashboard','SEO optimized','Unlimited revisions · ongoing support']},
+      ],
+      ctaTitle:'Ready for a website that works as hard as you do?',
+      ctaText:"Tell us about your business and we'll send a tailored plan and quote within 24 hours — free, no commitment.",
+    }};
+  }
+}
+</script>
+</body>
+</html>

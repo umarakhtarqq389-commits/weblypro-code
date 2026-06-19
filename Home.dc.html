@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <script src="scripts/wp-anim.js"></script>
+  <title>WeblyPro — Building Digital Ecosystems That Scale</title>
+</helmet>
+
+<div style="background:#fff; font-family:'DM Sans',sans-serif; color:#161B33; overflow-x:hidden;">
+
+  <dc-import name="WeblyNav" active="home" hint-size="100%,120px"></dc-import>
+
+  <!-- ============ HERO ============ -->
+  <section style="position:relative; overflow:hidden; background:#fff;">
+    <div style="position:absolute; inset:0; background:radial-gradient(70% 55% at 50% -8%,rgba(75,123,245,.13),transparent 60%),radial-gradient(45% 40% at 88% 12%,rgba(139,92,246,.12),transparent 60%);"></div>
+    <div style="position:absolute; inset:0; background-image:linear-gradient(rgba(75,123,245,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(75,123,245,.045) 1px,transparent 1px); background-size:52px 52px; mask-image:radial-gradient(circle at 50% 0%,#000,transparent 70%); -webkit-mask-image:radial-gradient(circle at 50% 0%,#000,transparent 70%);"></div>
+
+    <div style="position:relative; max-width:1100px; margin:0 auto; padding:clamp(52px,7vw,88px) clamp(24px,5vw,48px) 0; text-align:center;">
+      <div style="display:inline-flex; align-items:center; gap:9px; padding:8px 16px; border-radius:999px; background:#fff; border:1px solid rgba(22,27,51,.1); box-shadow:0 6px 18px -10px rgba(31,42,90,.3); font-size:12.5px; font-weight:600; color:#3D4661;" data-reveal>
+        <span style="width:7px;height:7px;border-radius:50%;background:#22C386;animation:wp-pulse 2.2s ease-out infinite;"></span>
+        Available for new projects — 2026
+      </div>
+
+      <h1 style="margin:24px auto 0; max-width:14ch; font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(42px,6.4vw,80px); line-height:1.02; letter-spacing:-.03em; color:#10162E;" data-reveal>
+        Building digital ecosystems that <span style="background:linear-gradient(115deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;">scale.</span>
+      </h1>
+
+      <p style="margin:26px auto 0; max-width:600px; font-size:clamp(16px,1.7vw,19px); line-height:1.65; color:#525C78;" data-reveal>
+        We design, build and grow web platforms, e-commerce, brands, video and AI-powered marketing — everything your business needs to win online, under one roof.
+      </p>
+
+      <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:34px;" data-reveal>
+        <a href="Contact.dc.html" style="{{ btnPrimary }}" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">Start a Project
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="Portfolio.dc.html" style="{{ btnGhost }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          Explore Our Work</a>
+      </div>
+
+      <div style="display:inline-flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px 26px; margin-top:36px; padding:14px 24px; border-radius:16px; background:rgba(255,255,255,.7); border:1px solid rgba(22,27,51,.06); backdrop-filter:blur(6px);" data-reveal>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="color:#8B5CF6; font-size:15px; letter-spacing:1px;">★★★★★</span>
+          <span style="font-size:13.5px; color:#3D4661; font-weight:500;"><b style="color:#10162E;">4.5/5</b> rating</span>
+        </div>
+        <div style="width:5px;height:5px;border-radius:50%;background:#C9D2EC;"></div>
+        <div style="font-size:13.5px; color:#3D4661; font-weight:500;"><b style="color:#10162E;">100+</b> projects delivered</div>
+        <div style="width:5px;height:5px;border-radius:50%;background:#C9D2EC;"></div>
+        <div style="font-size:13.5px; color:#3D4661; font-weight:500;"><b style="color:#10162E;">50+</b> repeat clients</div>
+      </div>
+    </div>
+
+    <!-- showcase -->
+    <div style="position:relative; max-width:1060px; margin:clamp(44px,6vw,72px) auto 0; padding:0 clamp(24px,5vw,48px);" data-reveal>
+      <div style="position:relative; border-radius:20px 20px 0 0; background:#fff; border:1px solid rgba(22,27,51,.09); border-bottom:none; box-shadow:0 -2px 0 rgba(255,255,255,.6),0 40px 90px -36px rgba(31,42,90,.45); overflow:hidden;">
+        <div style="display:flex; align-items:center; gap:7px; padding:14px 18px; border-bottom:1px solid rgba(22,27,51,.07); background:#FAFBFF;">
+          <span style="width:11px;height:11px;border-radius:50%;background:#FF6058;"></span>
+          <span style="width:11px;height:11px;border-radius:50%;background:#FFBD2E;"></span>
+          <span style="width:11px;height:11px;border-radius:50%;background:#27C93F;"></span>
+          <span style="margin-left:14px; flex:1; max-width:340px; height:24px; border-radius:7px; background:#EDF1FB; display:flex; align-items:center; padding:0 12px; font-size:11.5px; color:#8A93AB; font-weight:500;">weblypro.site/dashboard</span>
+        </div>
+        <div style="display:grid; grid-template-columns:200px 1fr; min-height:300px;" data-wp-dash>
+          <!-- sidebar -->
+          <div style="border-right:1px solid rgba(22,27,51,.07); padding:20px 16px; background:#FBFCFF;" data-wp-dashside>
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:22px;"><img src="https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781679215/wp-mark_nh5j72.png" style="height:20px;"><span style="font-family:Syne,sans-serif; font-weight:700; font-size:13px; color:#10162E;">Dashboard</span></div>
+            <div style="display:flex; flex-direction:column; gap:6px;">
+              <div style="display:flex; align-items:center; gap:9px; padding:9px 11px; border-radius:9px; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); color:#fff; font-size:12.5px; font-weight:600;"><span style="width:6px;height:6px;border-radius:2px;background:#fff;"></span>Overview</div>
+              <div style="display:flex; align-items:center; gap:9px; padding:9px 11px; border-radius:9px; color:#7A839D; font-size:12.5px;"><span style="width:6px;height:6px;border-radius:2px;background:#CBD3E8;"></span>Projects</div>
+              <div style="display:flex; align-items:center; gap:9px; padding:9px 11px; border-radius:9px; color:#7A839D; font-size:12.5px;"><span style="width:6px;height:6px;border-radius:2px;background:#CBD3E8;"></span>Analytics</div>
+              <div style="display:flex; align-items:center; gap:9px; padding:9px 11px; border-radius:9px; color:#7A839D; font-size:12.5px;"><span style="width:6px;height:6px;border-radius:2px;background:#CBD3E8;"></span>Clients</div>
+            </div>
+          </div>
+          <!-- main -->
+          <div style="padding:22px 24px;">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:20px;">
+              <div>
+                <div style="font-size:12px; color:#8A93AB; font-weight:500;">Total growth this quarter</div>
+                <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:34px; color:#10162E; letter-spacing:-.02em; line-height:1.1;">+247%</div>
+              </div>
+              <div style="display:flex; align-items:center; gap:5px; padding:7px 12px; border-radius:999px; background:rgba(34,195,134,.12); color:#159E62; font-size:12px; font-weight:700;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m3 17 6-6 4 4 8-8M21 7v6h-6"/></svg>On track</div>
+            </div>
+            <div style="display:flex; align-items:flex-end; gap:clamp(8px,1.6vw,16px); height:150px; padding-bottom:6px; border-bottom:1px solid rgba(22,27,51,.07);">
+              <div style="{{ barBlue }} height:38%; animation:wp-grow 1s ease-out .5s;"></div>
+              <div style="{{ barBlue }} height:54%; animation:wp-grow 1s ease-out .58s;"></div>
+              <div style="{{ barPurp }} height:46%; animation:wp-grow 1s ease-out .66s;"></div>
+              <div style="{{ barBlue }} height:70%; animation:wp-grow 1s ease-out .74s;"></div>
+              <div style="{{ barPurp }} height:60%; animation:wp-grow 1s ease-out .82s;"></div>
+              <div style="{{ barBlue }} height:82%; animation:wp-grow 1s ease-out .9s;"></div>
+              <div style="{{ barGrad }} height:100%; animation:wp-grow 1s ease-out .98s;"></div>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:18px;">
+              <div style="padding:13px 14px; border-radius:12px; border:1px solid rgba(22,27,51,.08);"><div style="font-size:11px; color:#8A93AB;">Conversions</div><div style="font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#10162E;">+58%</div></div>
+              <div style="padding:13px 14px; border-radius:12px; border:1px solid rgba(22,27,51,.08);"><div style="font-size:11px; color:#8A93AB;">Load time</div><div style="font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#10162E;">0.9s</div></div>
+              <div style="padding:13px 14px; border-radius:12px; border:1px solid rgba(22,27,51,.08);"><div style="font-size:11px; color:#8A93AB;">Revenue</div><div style="font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#10162E;">3.2×</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- floating cards -->
+      <div style="position:absolute; top:54px; left:-6px; background:#fff; border:1px solid rgba(22,27,51,.08); border-radius:15px; padding:13px 15px; box-shadow:0 20px 44px -18px rgba(31,42,90,.4); display:flex; align-items:center; gap:11px; animation:wp-float 5.5s ease-in-out infinite;" data-wp-floatcard>
+        <div style="width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#4B7BF5,#6E6BF2);display:flex;align-items:center;justify-content:center;"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="m22 2-7 20-4-9-9-4 20-7z"/></svg></div>
+        <div><div style="font-family:Syne,sans-serif;font-weight:700;font-size:16px;color:#10162E;line-height:1;">Launched</div><div style="font-size:11px;color:#8A93AB;margin-top:3px;">in 12 days</div></div>
+      </div>
+      <div style="position:absolute; bottom:84px; right:-6px; background:#fff; border:1px solid rgba(22,27,51,.08); border-radius:15px; padding:13px 15px; box-shadow:0 20px 44px -18px rgba(31,42,90,.4); animation:wp-float-slow 6.5s ease-in-out infinite;" data-wp-floatcard>
+        <div style="display:flex; gap:2px; margin-bottom:5px;">★★★★★</div>
+        <div style="font-size:11px;color:#8A93AB;">Loved by <b style="color:#10162E;">50+ clients</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST MARQUEE ============ -->
+  <section style="border-top:1px solid rgba(22,27,51,.07); border-bottom:1px solid rgba(22,27,51,.07); background:#FAFBFF; padding:34px 0 38px;">
+    <div style="text-align:center; font-size:11.5px; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:#A6AEC4; margin-bottom:18px;">Trusted by 50+ growing brands across Pakistan &amp; beyond</div>
+    <div style="position:relative; overflow:hidden; mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent); -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);">
+      <div style="display:flex; width:max-content; animation:wp-marquee 34s linear infinite;">
+        <div style="display:flex; gap:46px; padding-right:46px;">{{ tickerA }}</div>
+        <div style="display:flex; gap:46px; padding-right:46px;">{{ tickerB }}</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section style="position:relative; padding:clamp(80px,10vw,128px) 0; background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:52px;" data-reveal>
+        <div style="max-width:640px;">
+          <div style="{{ kicker }}"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">What we do</span></div>
+          <h2 style="{{ h2 }}">Nine capabilities. <span style="{{ grad }}">One partner.</span></h2>
+          <p style="{{ lead }} margin-bottom:0;">From the first line of code to the last ad creative, we cover every discipline your growth depends on — so you never have to juggle five vendors again.</p>
+        </div>
+        <a href="Services.dc.html" style="{{ btnGhost }} white-space:nowrap;" style-hover="border-color:#4B7BF5; color:#4B7BF5;">All services &amp; pricing
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div style="border:1px solid rgba(22,27,51,.1); border-radius:24px; overflow:hidden; background:rgba(22,27,51,.09); display:grid; grid-template-columns:repeat(3,1fr); gap:1px; box-shadow:0 40px 90px -50px rgba(31,42,90,.5);" data-wp-servgrid>
+        <a href="WebDevelopment.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">01</span><span style="{{ sIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="m18 16 4-4-4-4M6 8l-4 4 4 4M14.5 4l-5 16"/></svg></span><h4 style="{{ sTitle }}">Website Development</h4><p style="{{ sDesc }}">Custom, lightning-fast sites built with React, Node.js &amp; modern stacks.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="ShopifyDevelopment.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">02</span><span style="{{ sIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 2-1.58l1.65-7.42H5.12"/></svg></span><h4 style="{{ sTitle }}">Shopify Development</h4><p style="{{ sDesc }}">High-converting e-commerce stores with payments &amp; inventory built in.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="UIUXDesign.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">03</span><span style="{{ sIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg></span><h4 style="{{ sTitle }}">UI/UX Design</h4><p style="{{ sDesc }}">Wireframes, prototypes &amp; pixel-perfect interfaces that convert.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="GraphicDesign.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">04</span><span style="{{ sIcoP }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17" cy="15" r="2.5"/><path d="M12 22a10 10 0 1 1 0-20"/></svg></span><h4 style="{{ sTitle }}">Graphic Designing</h4><p style="{{ sDesc }}">Logos, complete brand identities, social creatives &amp; print-ready banners.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="DigitalMarketing.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">05</span><span style="{{ sIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="m3 11 18-5v12L3 14v-3zM11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><h4 style="{{ sTitle }}">Digital Marketing</h4><p style="{{ sDesc }}">Meta &amp; TikTok ad campaigns, retargeting and lead-gen that pay back.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="SEO.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">06</span><span style="{{ sIcoP }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span><h4 style="{{ sTitle }}">SEO Optimization</h4><p style="{{ sDesc }}">Climb the rankings and drive sustained organic traffic that converts.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="VideoEditing.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">07</span><span style="{{ sIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m22 8-6 4 6 4V8z"/></svg></span><h4 style="{{ sTitle }}">Video Editing &amp; AI</h4><p style="{{ sDesc }}">Reels, shorts, product showcases and AI-generated video that performs.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="AIServices.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">08</span><span style="{{ sIcoP }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3 3 3 0 0 0-3 3 3 3 0 0 0 0 6 3 3 0 0 0 3 3 3 3 0 0 0 6 0 3 3 0 0 0 3-3 3 3 0 0 0 0-6 3 3 0 0 0-3-3 3 3 0 0 0-3-3z"/></svg></span><h4 style="{{ sTitle }}">AI Services</h4><p style="{{ sDesc }}">AI agents, automation, AI product photography &amp; AI video creatives.</p><span style="{{ sLink }}">Learn more →</span></a>
+        <a href="MobileApp.dc.html" style="{{ sCell }}" style-hover="background:#F5F8FF;" data-reveal data-svc><span style="{{ sIdx }}">09</span><span style="{{ sIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M12 18h.01"/></svg></span><h4 style="{{ sTitle }}">Mobile App Development</h4><p style="{{ sDesc }}">Cross-platform iOS &amp; Android apps that feel native and scale.</p><span style="{{ sLink }}">Learn more →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IMPACT STATS (light band) ============ -->
+  <section style="position:relative; padding:clamp(72px,9vw,110px) 0; background:linear-gradient(180deg,#F6F7FE,#EEF1FD); border-top:1px solid rgba(22,27,51,.06); border-bottom:1px solid rgba(22,27,51,.06); overflow:hidden;">
+    <div style="position:absolute; top:-120px; right:-60px; width:380px; height:380px; background:radial-gradient(circle,rgba(139,92,246,.14),transparent 65%); filter:blur(20px); pointer-events:none;"></div>
+    <div style="position:absolute; bottom:-140px; left:-60px; width:380px; height:380px; background:radial-gradient(circle,rgba(75,123,245,.14),transparent 65%); filter:blur(20px); pointer-events:none;"></div>
+    <div style="position:relative; max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="text-align:center; max-width:600px; margin:0 auto 52px;" data-reveal>
+        <div style="display:inline-flex; align-items:center; gap:10px; margin-bottom:18px; justify-content:center;"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">By the numbers</span></div>
+        <h2 style="{{ h2 }} margin-bottom:0;">Results that <span style="{{ grad }}">speak louder</span> than claims.</h2>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px;" data-wp-statgrid>
+        <div style="{{ statCard }}" style-hover="transform:translateY(-6px); box-shadow:0 28px 56px -28px rgba(75,123,245,.5); border-color:rgba(75,123,245,.4);" data-reveal>
+          <span style="{{ statIco }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg></span>
+          <div style="{{ statNum }}" data-count="200" data-suffix="+">200+</div>
+          <div style="{{ statLbl }}">Projects delivered</div>
+          <div style="{{ statSub }}">Across 9 service lines</div>
+        </div>
+        <div style="{{ statCard }}" style-hover="transform:translateY(-6px); box-shadow:0 28px 56px -28px rgba(139,92,246,.5); border-color:rgba(139,92,246,.4);" data-reveal>
+          <span style="{{ statIcoP }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><path d="M12 2 9.2 8.6 2 9.2l5.5 4.8L5.8 21 12 17.3 18.2 21l-1.7-7 5.5-4.8-7.2-.6z"/></svg></span>
+          <div style="{{ statNumP }}" data-count="98" data-suffix="%">98%</div>
+          <div style="{{ statLbl }}">Client satisfaction</div>
+          <div style="{{ statSub }}">4.5/5 average rating</div>
+        </div>
+        <div style="{{ statCard }}" style-hover="transform:translateY(-6px); box-shadow:0 28px 56px -28px rgba(75,123,245,.5); border-color:rgba(75,123,245,.4);" data-reveal>
+          <span style="{{ statIco }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          <div style="{{ statNum }}" data-count="50" data-suffix="+">50+</div>
+          <div style="{{ statLbl }}">Happy clients</div>
+          <div style="{{ statSub }}">Many on retainer</div>
+        </div>
+        <div style="{{ statCard }}" style-hover="transform:translateY(-6px); box-shadow:0 28px 56px -28px rgba(139,92,246,.5); border-color:rgba(139,92,246,.4);" data-reveal>
+          <span style="{{ statIcoP }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+          <div style="{{ statNumP }}">24/7</div>
+          <div style="{{ statLbl }}">Dedicated support</div>
+          <div style="{{ statSub }}">We move at your pace</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED CASE STUDY ============ -->
+  <section style="padding:clamp(80px,10vw,128px) 0; background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(36px,5vw,72px); align-items:center;" data-wp-casegrid>
+        <!-- visual -->
+        <div style="position:relative;" data-reveal>
+          <div style="position:relative; aspect-ratio:16/11; border-radius:20px; overflow:hidden; background:url('https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781797364/textilehubonline.png') center/cover, linear-gradient(135deg,#4B7BF5,#8B5CF6); box-shadow:0 40px 90px -40px rgba(110,107,242,.6); display:flex; align-items:center; justify-content:center;">
+          </div>
+          <div style="position:absolute; bottom:-22px; left:24px; right:24px; background:#fff; border:1px solid rgba(22,27,51,.08); border-radius:16px; padding:18px 22px; box-shadow:0 24px 50px -22px rgba(31,42,90,.4); display:flex; justify-content:space-between; gap:12px;">
+            <div><div style="font-family:Syne,sans-serif;font-weight:700;font-size:22px;color:#4B7BF5;line-height:1;">500+</div><div style="font-size:11.5px;color:#8A93AB;margin-top:4px;">Products</div></div>
+            <div style="width:1px;background:rgba(22,27,51,.08);"></div>
+            <div><div style="font-family:Syne,sans-serif;font-weight:700;font-size:22px;color:#8B5CF6;line-height:1;">1.4s</div><div style="font-size:11.5px;color:#8A93AB;margin-top:4px;">Load time</div></div>
+            <div style="width:1px;background:rgba(22,27,51,.08);"></div>
+            <div><div style="font-family:Syne,sans-serif;font-weight:700;font-size:22px;color:#4B7BF5;line-height:1;">+60%</div><div style="font-size:11.5px;color:#8A93AB;margin-top:4px;">Sales</div></div>
+          </div>
+        </div>
+        <!-- copy -->
+        <div data-reveal>
+          <div style="{{ kicker }}"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Featured case study</span></div>
+          <h2 style="{{ h2 }}">Textile Hub</h2>
+          <p style="{{ lead }}">We rebuilt Textile Hub's online store to handle a catalog of 500+ products without sacrificing speed — fast browsing, smooth checkout and SEO built in from day one. The result was a leaner, faster store that converts.</p>
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 26px;">
+            <span style="{{ tag }}">E-Commerce</span><span style="{{ tag }}">500+ Products</span><span style="{{ tag }}">Performance</span><span style="{{ tag }}">SEO</span>
+          </div>
+          <a href="Portfolio.dc.html" style="{{ btnPrimary }}" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">View the project
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO GRID ============ -->
+  <section style="padding:clamp(80px,10vw,120px) 0; background:#F6F7FE;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:48px;" data-reveal>
+        <div style="max-width:620px;">
+          <div style="{{ kicker }}"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Our work</span></div>
+          <h2 style="{{ h2 }} margin-bottom:0;">Projects that <span style="{{ grad }}">moved the numbers.</span></h2>
+        </div>
+        <a href="Portfolio.dc.html" style="{{ btnGhost }} white-space:nowrap;" style-hover="border-color:#4B7BF5; color:#4B7BF5;">View all projects
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px;" data-wp-portgrid>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg1 }}" data-pimg><span style="{{ pTag }}">Web Development</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">MES IT Solutions</h4><p style="{{ pDesc }}">Corporate IT services site with a lead-focused funnel.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+85%</b><span style="{{ pLbl }}">Traffic</span></div><div><b style="{{ pNum }}">2.1s</b><span style="{{ pLbl }}">Load</span></div><div><b style="{{ pNum }}">+40%</b><span style="{{ pLbl }}">Leads</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg2 }}" data-pimg><span style="{{ pTag }}">Travel &amp; Tours</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Musa Travel &amp; Tours</h4><p style="{{ pDesc }}">Travel booking website with tour packages and inquiry handling.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+90%</b><span style="{{ pLbl }}">Bookings</span></div><div><b style="{{ pNum }}">1.5s</b><span style="{{ pLbl }}">Load</span></div><div><b style="{{ pNum }}">4.8★</b><span style="{{ pLbl }}">Rating</span></div></div></div>
+        </div>
+        <div style="{{ pCard }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -30px rgba(31,42,90,.4);" data-reveal data-port>
+          <div style="{{ pImg3 }}" data-pimg><span style="{{ pTag }}">Study Abroad</span></div>
+          <div style="padding:24px;"><h4 style="{{ pTitle }}">Konnect Study Consultant</h4><p style="{{ pDesc }}">Study-abroad consultancy website optimized for student leads.</p><div style="{{ pMetrics }}"><div><b style="{{ pNum }}">+40%</b><span style="{{ pLbl }}">Speed</span></div><div><b style="{{ pNum }}">+55%</b><span style="{{ pLbl }}">Inquiries</span></div><div><b style="{{ pNum }}">1.4s</b><span style="{{ pLbl }}">Load</span></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section style="padding:clamp(80px,10vw,128px) 0; background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="text-align:center; max-width:640px; margin:0 auto 60px;" data-reveal>
+        <div style="{{ kicker }}"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">How we work</span></div>
+        <h2 style="{{ h2 }}">A proven path from <span style="{{ grad }}">idea to launch.</span></h2>
+        <p style="{{ lead }}">Every engagement runs through our refined four-step method — so you always know exactly where your project stands.</p>
+      </div>
+      <div style="position:relative; display:grid; grid-template-columns:repeat(4,1fr); gap:22px;" data-wp-procgrid>
+        <div style="position:absolute; top:36px; left:12%; right:12%; height:2px; background:linear-gradient(90deg,#4B7BF5,#8B5CF6); opacity:.22;" data-wp-procline></div>
+        <div style="{{ procStep }}" data-reveal><div style="{{ procNum }}">01</div><h4 style="{{ procTitle }}">Discovery &amp; Research</h4><p style="{{ procDesc }}">We learn your business, goals and audience before a single pixel.</p></div>
+        <div style="{{ procStep }}" data-reveal><div style="{{ procNum }}">02</div><h4 style="{{ procTitle }}">Strategy &amp; Planning</h4><p style="{{ procDesc }}">A clear roadmap, scope and timeline — no surprises later.</p></div>
+        <div style="{{ procStep }}" data-reveal><div style="{{ procNum }}">03</div><h4 style="{{ procTitle }}">Design &amp; Prototype</h4><p style="{{ procDesc }}">Pixel-perfect designs you can see and feel before we build.</p></div>
+        <div style="{{ procStep }}" data-reveal><div style="{{ procNum }}">04</div><h4 style="{{ procTitle }}">Development &amp; Launch</h4><p style="{{ procDesc }}">We build, test, ship and support — on time, on budget.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE ============ -->
+  <section style="padding:clamp(80px,10vw,120px) 0; background:#F6F7FE;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px); display:grid; grid-template-columns:.9fr 1.1fr; gap:clamp(40px,5vw,72px); align-items:center;" data-wp-whygrid>
+      <div data-reveal>
+        <div style="{{ kicker }}"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Why WeblyPro</span></div>
+        <h2 style="{{ h2 }}">The advantages that <span style="{{ grad }}">set us apart.</span></h2>
+        <p style="{{ lead }}">We're the trusted digital partner for businesses across Pakistan and beyond — pairing agency-grade quality with honest, affordable pricing and total transparency.</p>
+        <a href="About.dc.html" style="{{ btnPrimary }} margin-top:8px;" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">More about us
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:18px;" data-wp-whycards>
+        <div style="{{ whyCard }}" data-whycard data-reveal><span style="{{ whyIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></span><h4 style="{{ whyTitle }}">Unbeatable Value</h4><p style="{{ whyDesc }}">Agency quality at prices small businesses can actually afford.</p></div>
+        <div style="{{ whyCard }}" data-whycard data-reveal><span style="{{ whyIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg></span><h4 style="{{ whyTitle }}">Fast Turnaround</h4><p style="{{ whyDesc }}">Most projects ship in days, not months — without cutting corners.</p></div>
+        <div style="{{ whyCard }}" data-whycard data-reveal><span style="{{ whyIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><h4 style="{{ whyTitle }}">Reliable &amp; Trustworthy</h4><p style="{{ whyDesc }}">Transparent communication and ongoing support at every step.</p></div>
+        <div style="{{ whyCard }}" data-whycard data-reveal><span style="{{ whyIco }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></span><h4 style="{{ whyTitle }}">Results-Focused</h4><p style="{{ whyDesc }}">We measure success by your real-world growth — not hours billed.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section id="pricing" style="padding:clamp(80px,10vw,128px) 0; background:#F6F7FE; border-top:1px solid rgba(22,27,51,.06); border-bottom:1px solid rgba(22,27,51,.06);">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="text-align:center; max-width:640px; margin:0 auto 16px;" data-reveal>
+        <div style="{{ kicker }} justify-content:center;"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">All-in-one packages</span></div>
+        <h2 style="{{ h2 }} margin-bottom:14px;">One partner for <span style="{{ grad }}">everything growth needs.</span></h2>
+        <p style="{{ lead }}">Website maintenance, social media management, graphic design, video editing, SEO and ad campaign handling — all under one monthly retainer. Ad spend / order budget is separate and paid directly by you.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:44px; align-items:start;" data-wp-pricegrid>
+        <div style="{{ priceCard }}" style-hover="transform:translateY(-6px); box-shadow:0 34px 70px -34px rgba(31,42,90,.4);" data-reveal>
+          <div style="{{ priceName }}">General</div>
+          <p style="{{ priceFor }}">For brands getting started with full-service support</p>
+          <div style="display:flex; align-items:baseline; gap:5px; margin:18px 0 4px;"><span style="{{ priceCur }}">Rs.</span><span style="{{ priceNum }}">1.5</span><span style="{{ priceUnit }}">lakh / mo</span></div>
+          <div style="{{ priceNote }}">Ad spend &amp; order budget billed separately</div>
+          <a href="Contact.dc.html" style="{{ priceBtn }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">Choose General</a>
+          <div style="{{ priceDivider }}"></div>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:13px;">
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Website maintenance &amp; updates</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Social media account management</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Graphic design (posts &amp; creatives)</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Basic video editing</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>SEO &amp; ad campaign handling</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Order handling</li>
+          </ul>
+        </div>
+        <div style="{{ priceCardHi }}" style-hover="transform:translateY(-10px); box-shadow:0 44px 90px -34px rgba(110,107,242,.6);" data-reveal>
+          <div style="position:absolute; top:18px; right:18px; padding:6px 13px; border-radius:999px; background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.3); font-size:11px; font-weight:700; letter-spacing:.05em; color:#fff;">POPULAR</div>
+          <div style="{{ priceNameHi }}">Standard</div>
+          <p style="{{ priceForHi }}">For growing brands that need more output &amp; attention</p>
+          <div style="display:flex; align-items:baseline; gap:5px; margin:18px 0 4px;"><span style="{{ priceCurHi }}">Rs.</span><span style="{{ priceNumHi }}">2.5</span><span style="{{ priceUnitHi }}">lakh / mo</span></div>
+          <div style="{{ priceNoteHi }}">Ad spend &amp; order budget billed separately</div>
+          <a href="Contact.dc.html" style="{{ priceBtnHi }}" style-hover="transform:translateY(-2px);">Choose Standard</a>
+          <div style="{{ priceDividerHi }}"></div>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:13px;">
+            <li style="{{ priceLiHi }}"><span style="{{ priceCheckHi }}">✓</span>Everything in General, scaled up</li>
+            <li style="{{ priceLiHi }}"><span style="{{ priceCheckHi }}">✓</span>More frequent content &amp; posting</li>
+            <li style="{{ priceLiHi }}"><span style="{{ priceCheckHi }}">✓</span>Advanced video editing &amp; reels</li>
+            <li style="{{ priceLiHi }}"><span style="{{ priceCheckHi }}">✓</span>Multi-platform ad campaigns</li>
+            <li style="{{ priceLiHi }}"><span style="{{ priceCheckHi }}">✓</span>Priority order handling</li>
+            <li style="{{ priceLiHi }}"><span style="{{ priceCheckHi }}">✓</span>Bi-weekly performance reports</li>
+          </ul>
+        </div>
+        <div style="{{ priceCard }}" style-hover="transform:translateY(-6px); box-shadow:0 34px 70px -34px rgba(31,42,90,.4);" data-reveal>
+          <div style="{{ priceName }}">Advanced</div>
+          <p style="{{ priceFor }}">For established brands wanting full-scale management</p>
+          <div style="display:flex; align-items:baseline; gap:5px; margin:18px 0 4px;"><span style="{{ priceCur }}">Rs.</span><span style="{{ priceNum }}">4.5</span><span style="{{ priceUnit }}">lakh / mo</span></div>
+          <div style="{{ priceNote }}">Ad spend &amp; order budget billed separately</div>
+          <a href="Contact.dc.html" style="{{ priceBtn }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">Choose Advanced</a>
+          <div style="{{ priceDivider }}"></div>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:13px;">
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Everything in Standard, maximized</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Dedicated account manager</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Daily social media management</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Full ad &amp; order handling team</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>Weekly reporting &amp; strategy calls</li>
+            <li style="{{ priceLi }}"><span style="{{ priceCheck }}">✓</span>24/7 priority support</li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align:center; font-size:13.5px; color:#8A93AB; margin:32px 0 0;">Prices are starting estimates and customized to your exact scope. <a href="Contact.dc.html" style="color:#4B7BF5; font-weight:600;">Talk to us for a tailored quote →</a></p>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section style="padding:clamp(80px,10vw,128px) 0; background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="text-align:center; max-width:620px; margin:0 auto 56px;" data-reveal>
+        <div style="{{ kicker }}"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Client stories</span></div>
+        <h2 style="{{ h2 }} margin-bottom:0;">Don't take our word <span style="{{ grad }}">for it.</span></h2>
+      </div>
+
+      <!-- featured -->
+      <div style="position:relative; border:1px solid rgba(22,27,51,.08); border-radius:24px; background:linear-gradient(135deg,#F8FAFF,#fff); padding:clamp(32px,4vw,56px); margin-bottom:24px; box-shadow:0 30px 70px -44px rgba(31,42,90,.4); overflow:hidden;" data-reveal>
+        <div style="position:absolute; top:-30px; right:24px; font-family:Syne,sans-serif; font-weight:700; font-size:160px; line-height:1; color:rgba(75,123,245,.06);">”</div>
+        <div style="position:relative; max-width:840px;">
+          <div style="color:#8B5CF6; font-size:18px; letter-spacing:2px; margin-bottom:18px;">★★★★★</div>
+          <p style="font-family:Syne,sans-serif; font-weight:600; font-size:clamp(20px,2.4vw,30px); line-height:1.4; letter-spacing:-.01em; color:#10162E; margin:0 0 26px;">"Our study-abroad website was developed with exceptional clarity and professionalism. The design, speed and user flow are perfectly optimized for students — exactly the modern, trustworthy platform we needed."</p>
+          <div style="display:flex; align-items:center; gap:14px;">
+            <span style="{{ tAvatar }}">SA</span>
+            <div><b style="display:block; font-size:15.5px; color:#10162E;">Salman Anwaar</b><span style="font-size:13px; color:#8A93AB;">CEO, Abroad Mentors</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px;" data-wp-testgrid>
+        <div style="{{ tCard }}" data-reveal><div style="color:#8B5CF6; font-size:16px; letter-spacing:2px; margin-bottom:14px;">★★★★★</div><p style="{{ tQuote }}">"WeblyPro exceeded our expectations. Page loads dropped 40% and parent engagement is up. Highly recommended!"</p><div style="{{ tWho }}"><span style="{{ tAvatarSm }}">PS</span><div><b style="{{ tName }}">PSF International School</b><span style="{{ tRole }}">Admin Team</span></div></div></div>
+        <div style="{{ tCard }}" data-reveal><div style="color:#8B5CF6; font-size:16px; letter-spacing:2px; margin-bottom:14px;">★★★★★</div><p style="{{ tQuote }}">"A complete e-commerce transformation — site, SEO and social all handled. We saw a 3× jump in engagement and sales."</p><div style="{{ tWho }}"><span style="{{ tAvatarSm }}">TH</span><div><b style="{{ tName }}">Textile Hub</b><span style="{{ tRole }}">Founder</span></div></div></div>
+        <div style="{{ tCard }}" data-reveal><div style="color:#8B5CF6; font-size:16px; letter-spacing:2px; margin-bottom:14px;">★★★★★</div><p style="{{ tQuote }}">"They handle our website orders, video and graphics end-to-end. Fast, reliable and genuinely creative."</p><div style="{{ tWho }}"><span style="{{ tAvatarSm }}">HB</span><div><b style="{{ tName }}">Haq Baba</b><span style="{{ tRole }}">Brand Owner</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA (light) ============ -->
+  <section style="position:relative; padding:clamp(70px,9vw,120px) 0; background:#fff; overflow:hidden;">
+    <div style="position:absolute; inset:0; background:radial-gradient(60% 80% at 50% 50%,rgba(75,123,245,.1),transparent 70%),radial-gradient(50% 60% at 80% 20%,rgba(139,92,246,.1),transparent 70%);"></div>
+    <div style="position:relative; max-width:880px; margin:0 auto; padding:0 clamp(24px,5vw,48px); text-align:center;" data-reveal>
+      <div style="display:inline-flex; align-items:center; gap:10px; justify-content:center; margin-bottom:20px;"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Let's talk</span><span style="{{ kDot }}"></span><span style="{{ kDash }}"></span></div>
+      <h2 style="font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(34px,5vw,58px); line-height:1.06; letter-spacing:-.025em; color:#10162E; margin:0 0 20px;">Have a project in mind?<br><span style="{{ grad }}">Let's make it real.</span></h2>
+      <p style="{{ lead }} max-width:540px; margin:0 auto 32px;">Tell us your idea and we'll tell you exactly how to make it happen — a free 30-minute consultation, no commitment.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center;">
+        <a href="Contact.dc.html" style="{{ btnPrimary }}" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">Book a Free Consultation
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="https://wa.me/923136928882" style="{{ btnGhost }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">Chat on WhatsApp</a>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:10px 28px; justify-content:center; margin-top:30px; font-size:13.5px; color:#6A7390;">
+        <span style="display:flex; align-items:center; gap:7px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22C386" stroke-width="2.5"><path d="m20 6-11 11-5-5"/></svg> Free consultation</span>
+        <span style="display:flex; align-items:center; gap:7px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22C386" stroke-width="2.5"><path d="m20 6-11 11-5-5"/></svg> On time, on budget</span>
+        <span style="display:flex; align-items:center; gap:7px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22C386" stroke-width="2.5"><path d="m20 6-11 11-5-5"/></svg> Ongoing support</span>
+      </div>
+    </div>
+  </section>
+
+  <dc-import name="WeblyFooter" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  componentDidMount(){
+    if(!document.getElementById('wp-home-rules')){
+      const st=document.createElement('style'); st.id='wp-home-rules';
+      st.textContent=`
+        @keyframes wp-grow{from{transform:scaleY(0);}to{transform:scaleY(1);}}
+        /* hover micro-interactions */
+        [data-svc]>span:nth-of-type(2){transition:transform .4s cubic-bezier(.22,1,.36,1);}
+        [data-svc]:hover>span:nth-of-type(2){transform:translateY(-5px) scale(1.06);}
+        [data-svc]>span:last-child{transition:transform .3s cubic-bezier(.22,1,.36,1);}
+        [data-svc]:hover>span:last-child{transform:translateX(5px);}
+        [data-svc]>span:first-of-type{transition:color .3s,transform .4s cubic-bezier(.22,1,.36,1);}
+        [data-svc]:hover>span:first-of-type{transform:scale(1.15);color:rgba(75,123,245,.18);}
+        [data-port]{transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s;}
+        [data-port] [data-pimg]{transition:transform .55s cubic-bezier(.22,1,.36,1);}
+        [data-port]:hover [data-pimg]{transform:scale(1.06);}
+        [data-whycard]>span{transition:transform .4s cubic-bezier(.22,1,.36,1),background .3s;}
+        [data-whycard]:hover>span{transform:translateY(-4px) rotate(-6deg);}
+        @media(max-width:940px){
+          [data-wp-servgrid]{grid-template-columns:1fr 1fr !important;}
+          [data-wp-portgrid]{grid-template-columns:1fr 1fr !important;}
+          [data-wp-casegrid]{grid-template-columns:1fr !important;}
+          [data-wp-whygrid]{grid-template-columns:1fr !important;}
+          [data-wp-procgrid]{grid-template-columns:1fr 1fr !important;}
+          [data-wp-procline]{display:none !important;}
+          [data-wp-testgrid]{grid-template-columns:1fr !important;}
+          [data-wp-statgrid]{grid-template-columns:1fr 1fr !important;}
+          [data-wp-pricegrid]{grid-template-columns:1fr !important; max-width:520px; margin-left:auto; margin-right:auto;}
+        }
+        @media(max-width:600px){
+          [data-wp-servgrid],[data-wp-portgrid]{grid-template-columns:1fr !important;}
+          [data-wp-procgrid],[data-wp-whycards]{grid-template-columns:1fr !important;}
+          [data-wp-dashside]{display:none !important;}
+          [data-wp-dash]{grid-template-columns:1fr !important;}
+          [data-wp-floatcard]{display:none !important;}
+        }`;
+      document.head.appendChild(st);
+    }
+    this.runAnim();
+  }
+  runAnim(t){ t=t||0; if(window.WPAnim){window.WPAnim.reveal(this.base); window.WPAnim.counters(this.base);} else if(t<40){ setTimeout(()=>this.runAnim(t+1),50); } }
+
+  renderVals(){
+    const clients=[
+      {name:'RAL Connect',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793127/ral-connect.png'},
+      {name:'Textile Hub',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793127/textilehub.png'},
+      {name:'Softnix',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793127/softnixt.png'},
+      {name:'Musa Al Raza Travel',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793127/musa.png'},
+      {name:'Onaé',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793127/onae.png'},
+      {name:'MES IT Solutions',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793128/mes.png'},
+      {name:'Future Career Hub',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793173/fch.png'},
+      {name:'Isle by Ayla Hijab',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793172/ayla.png'},
+      {name:'AdsGorilla',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793171/ads-gorilla.png'},
+      {name:'Apollo Fly',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793170/apollo-fly.png'},
+      {name:'Crelix',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793170/crelix.png'},
+      {name:'Dillangzo Academy',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793169/dillangzo.png'},
+      {name:'Qyros',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793169/qyros.png'},
+      {name:'Haq Baba',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793169/haq-baba.png'},
+      {name:'Studio Hira Interiors',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793167/hira-studio.png'},
+      {name:'Janan',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793167/janan.png'},
+      {name:'Konnect Study Advisor',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793166/konnect.png'},
+      {name:'Lightning Ads',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793166/lightning-ads.png'},
+      {name:'Abroad Mentors',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781794108/abroad-mentors.png'},
+      {name:'Marooj',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793144/marooj.png'},
+      {name:'Lomaro',logo:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781793165/lomaro.png'},
+    ];
+    const mk=()=>React.createElement(React.Fragment,null, clients.map((c,i)=>React.createElement('span',{key:i,style:{display:'inline-flex',alignItems:'center',gap:'46px'}},
+      React.createElement('img',{src:c.logo,alt:c.name,title:c.name,style:{height:'72px',width:'72px',objectFit:'contain',borderRadius:'10px',flexShrink:0}}),
+      React.createElement('span',{style:{width:'7px',height:'7px',borderRadius:'50%',background:'linear-gradient(120deg,#4B7BF5,#8B5CF6)',flexShrink:0}}))));
+
+    return {
+      tickerA: mk(), tickerB: mk(),
+
+      // buttons
+      btnPrimary:'display:inline-flex; align-items:center; gap:9px; padding:16px 28px; border-radius:13px; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); color:#fff; font-weight:600; font-size:15.5px; box-shadow:0 16px 36px -14px rgba(110,107,242,.6); transition:transform .25s,box-shadow .25s;',
+      btnGhost:'display:inline-flex; align-items:center; gap:9px; padding:15px 26px; border-radius:13px; background:#fff; border:1px solid rgba(22,27,51,.14); color:#1B2240; font-weight:600; font-size:15.5px; transition:all .25s;',
+
+      // kicker motif
+      kicker:'display:inline-flex; align-items:center; gap:10px; margin-bottom:18px;',
+      kDash:'width:26px; height:2px; border-radius:2px; background:linear-gradient(90deg,#4B7BF5,#8B5CF6);',
+      kDot:'width:6px; height:6px; border-radius:50%; background:#8B5CF6; box-shadow:0 0 0 4px rgba(139,92,246,.13);',
+      kText:'font-family:DM Sans,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; color:#5B6BD6;',
+
+      // headings
+      h2:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(30px,4.2vw,50px); line-height:1.1; letter-spacing:-.025em; color:#10162E; margin:0 0 18px;',
+      grad:'background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      lead:'font-size:17px; line-height:1.7; color:#525C78; margin:0 0 8px;',
+      tag:'display:inline-block; padding:7px 14px; border-radius:999px; background:#F0F3FE; border:1px solid rgba(75,123,245,.16); font-size:12.5px; font-weight:500; color:#4257B8;',
+
+      // chart bars
+      barBlue:'flex:1; border-radius:6px 6px 0 0; background:linear-gradient(180deg,#6AA8FB,#4B7BF5); transform-origin:bottom;',
+      barPurp:'flex:1; border-radius:6px 6px 0 0; background:linear-gradient(180deg,#A98BFF,#8B5CF6); transform-origin:bottom;',
+      barGrad:'flex:1; border-radius:6px 6px 0 0; background:linear-gradient(180deg,#4B7BF5,#8B5CF6); transform-origin:bottom; box-shadow:0 8px 20px -6px rgba(110,107,242,.6);',
+
+      // service cells
+      sCell:'position:relative; display:flex; flex-direction:column; align-items:flex-start; padding:34px 30px; background:#fff; transition:background .3s; overflow:hidden;',
+      sIdx:'position:absolute; top:24px; right:26px; font-family:Syne,sans-serif; font-weight:700; font-size:32px; line-height:1; color:rgba(75,123,245,.1);',
+      sIco:'width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:rgba(75,123,245,.1);margin-bottom:18px;',
+      sIcoP:'width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:rgba(139,92,246,.1);margin-bottom:18px;',
+      sTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:18px; color:#1B2240; margin:0 0 8px;',
+      sDesc:'font-size:14px; line-height:1.65; color:#6A7390; margin:0 0 16px; flex:1;',
+      sLink:'display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:600; color:#4B7BF5;',
+
+      // stats
+      statCard:'position:relative; background:#fff; border:1px solid rgba(22,27,51,.08); border-radius:20px; padding:clamp(26px,3vw,34px) clamp(22px,2.5vw,28px); text-align:left; box-shadow:0 1px 2px rgba(5,13,31,.04),0 16px 40px -30px rgba(31,42,90,.35); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s,border-color .35s;',
+      statIco:'display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border-radius:13px; background:rgba(75,123,245,.1); margin-bottom:18px;',
+      statIcoP:'display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border-radius:13px; background:rgba(139,92,246,.1); margin-bottom:18px;',
+      statNum:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(36px,4.4vw,52px); line-height:1; letter-spacing:-.02em; background:linear-gradient(120deg,#4B7BF5,#6E6BF2); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      statNumP:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(36px,4.4vw,52px); line-height:1; letter-spacing:-.02em; background:linear-gradient(120deg,#7C6BF2,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      statLbl:'margin-top:12px; font-size:15px; color:#1B2240; font-weight:600;',
+      statSub:'margin-top:4px; font-size:12.5px; color:#8A93AB;',
+
+      // portfolio
+      pCard:'background:#fff; border:1px solid rgba(22,27,51,.08); border-radius:20px; overflow:hidden; box-shadow:0 1px 2px rgba(5,13,31,.04),0 16px 40px -28px rgba(31,42,90,.3); transition:transform .3s,box-shadow .3s;',
+      pImg1:'position:relative; aspect-ratio:16/10; background:url(\'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699260/mes-solution.png\') center/cover, linear-gradient(135deg,#4B7BF5,#8B5CF6); display:flex; align-items:flex-end; justify-content:flex-start; padding:16px;',
+      pImg2:'position:relative; aspect-ratio:16/10; background:url(\'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699262/musatravel.png\') center/cover, linear-gradient(135deg,#6E6BF2,#A98BFF); display:flex; align-items:flex-end; justify-content:flex-start; padding:16px;',
+      pImg3:'position:relative; aspect-ratio:16/10; background:url(\'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699392/konnect-study.png\') center/cover, linear-gradient(135deg,#3F8CFB,#6E6BF2); display:flex; align-items:flex-end; justify-content:flex-start; padding:16px;',
+      pTag:'padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.92); font-size:11.5px; font-weight:600; color:#1B2240;',
+      pImgLabel:'position:absolute; top:14px; right:14px; font-size:10px; font-weight:600; letter-spacing:.06em; color:rgba(255,255,255,.85); text-transform:uppercase;',
+      pTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#1B2240; margin:0 0 6px;',
+      pDesc:'font-size:14px; line-height:1.6; color:#6A7390; margin:0 0 18px;',
+      pMetrics:'display:flex; gap:18px; padding-top:16px; border-top:1px solid rgba(22,27,51,.07);',
+      pNum:'display:block; font-family:Syne,sans-serif; font-weight:700; font-size:19px; color:#4B7BF5; line-height:1;',
+      pLbl:'font-size:11px; color:#8A93AB; font-weight:500;',
+
+      // process
+      procStep:'position:relative; text-align:center; padding:0 8px;',
+      procNum:'width:72px;height:72px; margin:0 auto 18px; border-radius:22px; display:flex; align-items:center; justify-content:center; font-family:Syne,sans-serif; font-weight:700; font-size:24px; color:#fff; background:linear-gradient(135deg,#4B7BF5,#8B5CF6); box-shadow:0 16px 32px -12px rgba(110,107,242,.55); position:relative; z-index:2;',
+      procTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:17px; color:#1B2240; margin:0 0 8px;',
+      procDesc:'font-size:13.5px; line-height:1.6; color:#6A7390; margin:0;',
+
+      // why
+      whyCard:'padding:26px; border-radius:18px; background:#fff; border:1px solid rgba(22,27,51,.07); box-shadow:0 1px 2px rgba(5,13,31,.04),0 12px 30px -24px rgba(31,42,90,.3);',
+      whyIco:'width:48px;height:48px; border-radius:13px; display:flex; align-items:center; justify-content:center; background:rgba(75,123,245,.1); margin-bottom:16px;',
+      whyTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:16.5px; color:#1B2240; margin:0 0 7px;',
+      whyDesc:'font-size:13.5px; line-height:1.6; color:#6A7390; margin:0;',
+
+      // pricing
+      priceCard:'position:relative; display:flex; flex-direction:column; padding:32px; border-radius:22px; background:#fff; border:1px solid rgba(22,27,51,.1); box-shadow:0 1px 2px rgba(5,13,31,.04),0 18px 44px -32px rgba(31,42,90,.3); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s;',
+      priceCardHi:'position:relative; display:flex; flex-direction:column; padding:34px 32px; border-radius:22px; background:linear-gradient(155deg,#4B7BF5,#7C5CF6 60%,#8B5CF6); color:#fff; box-shadow:0 30px 70px -30px rgba(110,107,242,.65); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s; overflow:hidden;',
+      priceName:'font-family:Syne,sans-serif; font-weight:700; font-size:21px; color:#10162E;',
+      priceNameHi:'font-family:Syne,sans-serif; font-weight:700; font-size:21px; color:#fff;',
+      priceFor:'font-size:13.5px; color:#8A93AB; margin:6px 0 0;',
+      priceForHi:'font-size:13.5px; color:rgba(255,255,255,.8); margin:6px 0 0;',
+      priceCur:'font-family:Syne,sans-serif; font-weight:700; font-size:20px; color:#4B7BF5;',
+      priceCurHi:'font-family:Syne,sans-serif; font-weight:700; font-size:20px; color:#fff;',
+      priceNum:'font-family:Syne,sans-serif; font-weight:700; font-size:36px; letter-spacing:-.02em; line-height:1; color:#10162E;',
+      priceNumHi:'font-family:Syne,sans-serif; font-weight:700; font-size:36px; letter-spacing:-.02em; line-height:1; color:#fff;',
+      priceUnit:'font-size:16px; font-weight:600; color:#8A93AB;',
+      priceUnitHi:'font-size:16px; font-weight:600; color:rgba(255,255,255,.85);',
+      priceNote:'font-size:13px; color:#6A7390; margin-bottom:20px;',
+      priceNoteHi:'font-size:13px; color:rgba(255,255,255,.85); margin-bottom:20px;',
+      priceBtn:'display:block; text-align:center; padding:13px; border-radius:12px; border:1px solid rgba(22,27,51,.16); font-weight:600; font-size:14.5px; color:#1B2240; transition:all .25s;',
+      priceBtnHi:'display:block; text-align:center; padding:13px; border-radius:12px; background:#fff; color:#4257B8; font-weight:700; font-size:14.5px; transition:transform .25s;',
+      priceDivider:'height:1px; background:rgba(22,27,51,.08); margin:22px 0;',
+      priceDividerHi:'height:1px; background:rgba(255,255,255,.2); margin:22px 0;',
+      priceLi:'display:flex; gap:10px; align-items:flex-start; font-size:14px; line-height:1.45; color:#3D4661;',
+      priceLiHi:'display:flex; gap:10px; align-items:flex-start; font-size:14px; line-height:1.45; color:rgba(255,255,255,.95);',
+      priceCheck:'flex-shrink:0; font-weight:800; color:#22C386;',
+      priceCheckHi:'flex-shrink:0; font-weight:800; color:#fff;',
+
+      // testimonials
+      tAvatar:'width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Syne,sans-serif;font-weight:700;font-size:16px;color:#fff;background:linear-gradient(135deg,#4B7BF5,#8B5CF6);flex-shrink:0;',
+      tCard:'padding:28px; border-radius:20px; background:#fff; border:1px solid rgba(22,27,51,.08); box-shadow:0 1px 2px rgba(5,13,31,.04),0 14px 36px -28px rgba(31,42,90,.3);',
+      tQuote:'font-size:14.5px; line-height:1.7; color:#3D4661; margin:0 0 22px;',
+      tWho:'display:flex; align-items:center; gap:12px;',
+      tAvatarSm:'width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Syne,sans-serif;font-weight:700;font-size:14px;color:#fff;background:linear-gradient(135deg,#4B7BF5,#8B5CF6);flex-shrink:0;',
+      tName:'display:block; font-size:14px; font-weight:700; color:#1B2240;',
+      tRole:'font-size:12.5px; color:#8A93AB;',
+    };
+  }
+}
+</script>
+</body>
+</html>

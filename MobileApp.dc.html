@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>Mobile App Development — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2400px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'Mobile App Development',
+      title:'Apps that feel native everywhere.',
+      intro:'Cross-platform iOS & Android apps built to feel native, load fast and scale — from MVPs to full-featured products your users will love.',
+      heroImageNote:'App screen mockup · replace (9:16 phone)',
+      featuresTitle:'From idea to App Store.',
+      features:[
+        {t:'Cross-platform',d:'One codebase for iOS & Android with React Native / Flutter.'},
+        {t:'Native feel',d:'Smooth, fast and intuitive — indistinguishable from native apps.'},
+        {t:'Backend & APIs',d:'Secure backends, databases and API integrations included.'},
+        {t:'Push & auth',d:'Notifications, login, payments and the features users expect.'},
+        {t:'Store launch',d:'We handle App Store & Play Store submission and approval.'},
+        {t:'Maintenance',d:'Updates, monitoring and improvements after launch.'},
+      ],
+      galleryTitle:'App projects',
+      galleryNote:'Replace these placeholders with screenshots of your real apps — phone mockups (9:16) work best.',
+      gallery:[
+        {label:'App screen',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781841266/mobile-app-home.jpg',ratio:'540/1204',accent:'a'},
+        {label:'Crelix app',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781841264/crelix-home_view.png',ratio:'9/16',accent:'b'},
+        {label:'Dashboard',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781841276/textile.php_dashboard.png',ratio:'9/16',accent:'c'},
+        {label:'Product page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781841269/mobile-product.jpg',ratio:'540/1204',accent:'b'},
+        {label:'App store listing',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781841187/app-view.png',ratio:'1536/1024',accent:'a'},
+        {label:'Tablet view',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781841272/tablet_view.png',ratio:'792/1618',accent:'c'},
+      ],
+      packages:[
+        {name:'MVP',for:'Validate your idea fast',price:'80,000',unit:'+',note:'Core app, one platform',items:['Up to 5 core screens','Single platform (iOS or Android)','Basic backend & auth','Clean UI design','1 revision round','Store submission']},
+        {name:'Standard',for:'Full cross-platform app',price:'150,000',unit:'+',note:'iOS & Android',featured:true,items:['Cross-platform (iOS + Android)','Custom UI/UX design','Backend, APIs & database','Push notifications','Payments integration','Store launch + support']},
+        {name:'Custom',for:'Complex, scaling products',price:'250,000',unit:'+',note:'Advanced features',items:['Everything in Standard','Advanced features & logic','Admin dashboard','Third-party integrations','Scalable architecture','Ongoing maintenance']},
+      ],
+      ctaTitle:'Got an app idea?',
+      ctaText:"Tell us what you're building and we'll map out the fastest path to launch.",
+    }};
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>Graphic Design & Branding — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2400px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'Graphic Design & Branding',
+      title:'Designs that make brands unforgettable.',
+      intro:'Logos, complete brand identities, social media creatives and print-ready banners — visuals that not only look stunning but drive real engagement and sales.',
+      heroImageNote:'Brand / creative sample · replace (square 1080×1080)',
+      featuresTitle:'From logo to full brand system.',
+      features:[
+        {t:'Logo design',d:'Custom logo concepts with source files and multiple revisions.'},
+        {t:'Brand identity',d:'Color palette, typography, stationery and a full brand guidelines book.'},
+        {t:'Character design',d:'Custom illustrated characters and mascots for your brand.'},
+        {t:'Social media kit',d:'Post templates, story & highlight icons and covers, platform-optimized.'},
+        {t:'Marketing creatives',d:'Scroll-stopping ad creatives for Meta, TikTok and your campaigns.'},
+        {t:'Business cards & stationery',d:'Consultant-ready business cards, letterheads and stationery.'},
+        {t:'Flex & large format',d:'Flex banners, standees and large-format prints for signage.'},
+        {t:'Print & packaging',d:'Print-ready flyers, packaging and labels.'},
+        {t:'Source files',d:'You own the editable source files — always.'},
+      ],
+      galleryTitle:'Creatives & branding we have made',
+      galleryNote:'Logos, branding, character design and ad creatives for our clients. Replace these placeholders with your real designs — Meta sizes 1080×1080 (square) and 1080×1350 (4:5) work best.',
+      gallery:[
+        {label:'IELTS campaign',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781856003/ielts.jpg',ratio:'1/1',accent:'a'},
+        {label:'UK study campaign',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781856000/uk_.png',ratio:'1/1',accent:'b'},
+        {label:'Travel creative 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855995/travel-2.jpg',ratio:'1/1',accent:'c'},
+        {label:'Travel creative 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855991/travel-1_.jpg',ratio:'1080/1350',accent:'a'},
+        {label:'Softnix creative 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855987/softnixt-4_.png',ratio:'1080/1350',accent:'b'},
+        {label:'Softnix creative 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855981/softnixt-1_.png',ratio:'1080/1350',accent:'c'},
+        {label:'Softnix creative 3',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855980/sofnitxt-3.png',ratio:'1080/1350',accent:'a'},
+        {label:'Sapphire creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855973/sapphire_creative.png',ratio:'1080/1350',accent:'b'},
+        {label:'Raabi creative 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855971/raabi.png',ratio:'1/1',accent:'c'},
+        {label:'Raabi creative 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855966/raabi-2.png',ratio:'1080/1350',accent:'a'},
+        {label:'Pizza creative 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855961/pizza_2.png',ratio:'1080/1350',accent:'b'},
+        {label:'Pizza creative 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855956/pizza-1.png',ratio:'1080/1350',accent:'c'},
+        {label:'Future Career Hub creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855952/cerative-fch.png',ratio:'1/1',accent:'a'},
+        {label:'Nishat winning creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855948/nishat_winning%20creative.png',ratio:'1080/1350',accent:'b'},
+        {label:'LinkedIn banner 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855943/linkedin-2_banner.png',ratio:'2178/545',accent:'c'},
+        {label:'LinkedIn banner 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855939/linkedin_banner.png',ratio:'2397/406',accent:'a'},
+        {label:'Lightning Ads creative 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855934/ligtning-ads.png',ratio:'1080/1350',accent:'b'},
+        {label:'Lightning Ads creative 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855930/lighting-2.png',ratio:'1080/1350',accent:'c'},
+        {label:'Khaadi creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855927/khaadi.png',ratio:'1/1',accent:'a'},
+        {label:'Hiring post 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855921/hiring_1.png',ratio:'1/1',accent:'b'},
+        {label:'Hiring post 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855920/hiirng-2.png',ratio:'1080/1350',accent:'c'},
+        {label:'Gul Ahmed creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855920/gul_ahmed.png',ratio:'1080/1350',accent:'a'},
+        {label:'AdsGorilla creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855911/gorilla-1.png',ratio:'1080/1350',accent:'b'},
+        {label:'Flex design 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855905/flex-design-1.png',ratio:'1024/1536',accent:'c'},
+        {label:'Flex design 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855902/flex-2_.png',ratio:'720/1800',accent:'a'},
+        {label:'FCH creative 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855892/fch-2_creative.png',ratio:'1/1',accent:'b'},
+        {label:'FCH creative 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855887/fch-1_creative.png',ratio:'1/1',accent:'c'},
+        {label:'Flex banner (large format)',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855886/banner-flex-1.png',ratio:'5250/3750',accent:'a'},
+        {label:'Facebook banner',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855886/facebook-1_banner.png',ratio:'3325/1243',accent:'b'},
+        {label:'FCH card design',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855885/card-1_fch.png',ratio:'1080/1080',accent:'c'},
+        {label:'Eid poster',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855885/eid_poster.png',ratio:'1/1',accent:'a'},
+        {label:'E-commerce banner',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855865/banner-ecommerce.png',ratio:'1600/749',accent:'b'},
+        {label:'Creative 27',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855862/27_creative.png',ratio:'1080/1350',accent:'c'},
+        {label:'Creative 23',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855857/23_creative.png',ratio:'1080/1350',accent:'a'},
+        {label:'Logo design 3',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855852/3_logo_.png',ratio:'1/1',accent:'b'},
+        {label:'Logo design 4',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855848/3_logo.png',ratio:'1/1',accent:'c'},
+        {label:'Logo design 5',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855844/1-logo.png',ratio:'1555/1011',accent:'a'},
+        {label:'Quaid-e-Azam Day creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781855839/quaid-fch.jpg',ratio:'1/1',accent:'b',fit:'contain'},
+      ],
+      packages:[
+        {name:'Basic',for:'Just need a logo',price:'2,000',unit:'+',note:'Logo design',items:['Custom logo concepts','Source files included','3–5 day delivery','Multiple revisions','Color & mono versions']},
+        {name:'Standard',for:'New brands & social presence',price:'5,000',unit:'',note:'Brand identity',featured:true,items:['Everything in Basic','Logo + stationery design','Business card design','Post templates & covers','Brand color palette','Platform optimization','Multiple revisions']},
+        {name:'Premium',for:'Full brand system',price:'15,000',unit:'+',note:'Complete branding package',items:['Everything in Standard','Brand guidelines book','Character design / mascot','Social media kit & templates','Flex & large-format design','Full branding package','Unlimited revisions']},
+      ],
+      ctaTitle:'Ready to look like the brand you are?',
+      ctaText:"Share your vision and we'll design a brand that turns heads and builds trust.",
+    }};
+  }
+}
+</script>
+</body>
+</html>

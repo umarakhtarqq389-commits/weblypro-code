@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>AI Services — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2600px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'AI Services',
+      title:'AI that does the heavy lifting.',
+      intro:'Harness artificial intelligence to streamline your workflow and create content at scale — AI agents and automation, AI product photography, and AI-generated videos and creatives.',
+      heroImageNote:'AI agent / automation visual · replace (square)',
+      featuresTitle:'Practical AI for real businesses.',
+      features:[
+        {t:'AI agents',d:'Custom AI assistants and chatbots that handle support, sales and FAQs.'},
+        {t:'Automation',d:'Automate repetitive tasks and connect your tools to save hours.'},
+        {t:'AI product photography',d:'Studio-quality AI product shots for e-commerce — no photoshoot needed.'},
+        {t:'AI video & creatives',d:'AI-generated videos and ad creatives produced fast and at scale.'},
+        {t:'Chatbot integration',d:'Plug AI chat into your website, WhatsApp or store.'},
+        {t:'Custom solutions',d:'Have a specific AI idea? We build to spec.'},
+      ],
+      special:{
+        badge:'AI agents for every business',
+        title:'Need an AI agent for your business?',
+        desc:'We build custom AI agents for e-commerce stores, consultancies, ad agencies and any other category — handling customer queries, qualifying leads and supporting your team around the clock. Tell us your category and we\'ll design an agent for it.',
+        btnLabel:'Contact Us',
+        btnHref:'Contact.dc.html',
+        img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781840197/textile-ai-agent.png',
+        imageNote:'E-commerce · Consultancy · Ads · Your category'
+      },
+      galleryTitle:'AI shoots, videos & creatives',
+      galleryNote:'AI product photography, AI videos and creatives we have produced. Replace these placeholders with your real AI work — product shots 1080×1080, AI videos 1080×1920.',
+      gallery:[
+        {label:'AI video 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781803772/video-1.png',ratio:'9/16',accent:'b'},
+        {label:'AI product shoot 1',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781804043/janan-ai-shoot.png',ratio:'1695/2000',accent:'a'},
+        {label:'AI creative',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781803836/onae-ai-shoot.png',ratio:'1023/1537',accent:'b'},
+        {label:'AI agent UI',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781803765/ai-agent.png',ratio:'702/1326',accent:'a'},
+        {label:'AI video 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781803837/video-2.png',ratio:'9/16',accent:'c'},
+        {label:'AI product shoot 2',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781804177/shoot-1.png',ratio:'2000/1294',accent:'c'},
+      ],
+      packages:[
+        {name:'AI Creatives',for:'AI photos & graphics',price:'3,000',unit:'+',note:'Per batch',items:['AI product photography','AI graphic creatives','Multiple variations','Brand-styled outputs','Commercial-ready files','Revisions included']},
+        {name:'AI Video',for:'AI-generated video',price:'4,000',unit:'–5,000',note:'Per video',featured:true,items:['AI video generation','AI avatars / voiceover','Script assistance','Brand styling','Ready for ads & social','Revisions included']},
+        {name:'AI Agents & Automation',for:'Custom AI builds',price:'Custom',unit:'quote',note:'Tailored to your needs',items:['Custom AI agent / chatbot','Website / WhatsApp integration','Workflow automation','Knowledge-base training','Ongoing tuning','Dedicated support']},
+      ],
+      ctaTitle:'Curious what AI can do for you?',
+      ctaText:"Tell us your use case and we'll show you exactly how AI can save time and grow your business.",
+    }};
+  }
+}
+</script>
+</body>
+</html>

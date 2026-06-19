@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./support.js"></script>
+  </head>
+  <body>
+    <x-dc>
+      <helmet>
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="assets/favicon_io/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="assets/favicon_io/favicon-16x16.png"
+        />
+        <link rel="shortcut icon" href="assets/favicon_io/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="assets/favicon_io/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+      </helmet>
+
+      <footer
+        style="
+          position: relative;
+          background: #f6f7fe;
+          color: #1b2240;
+          font-family: 'DM Sans', sans-serif;
+          border-top: 1px solid rgba(22, 27, 51, 0.07);
+          overflow: hidden;
+        "
+      >
+        <!-- gradient hairline accent -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #4b7bf5, #8b5cf6, #4b7bf5);
+            background-size: 200% 100%;
+            animation: wp-gradientshift 8s linear infinite;
+          "
+        ></div>
+
+        <div
+          style="
+            position: relative;
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: clamp(56px, 7vw, 84px) clamp(24px, 5vw, 48px) 0;
+          "
+        >
+          <div
+            style="
+              display: grid;
+              grid-template-columns: 1.6fr 1fr 1fr 1.3fr;
+              gap: 44px;
+              padding-bottom: 52px;
+            "
+            data-wp-fcols
+          >
+            <!-- brand col -->
+            <div>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  margin-bottom: 18px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781679215/wp-mark_nh5j72.png"
+                  alt="WeblyPro"
+                  style="height: 28px; width: auto"
+                />
+                <span
+                  style="
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 26px;
+                    letter-spacing: -1px;
+                    color: #10162e;
+                  "
+                  >WeblyPro</span
+                >
+              </div>
+              <p
+                style="
+                  margin: 0 0 22px;
+                  font-size: 14.5px;
+                  line-height: 1.75;
+                  color: #5a6378;
+                  max-width: 340px;
+                "
+              >
+                A full-service digital growth studio in Faisalabad. We design,
+                build and scale web platforms, stores, brands and AI-powered
+                marketing for businesses that want to win.
+              </p>
+              <div style="display: flex; gap: 10px">
+                <a
+                  href="https://wa.me/923136928882"
+                  aria-label="WhatsApp"
+                  style="{{ social }}"
+                  style-hover="border-color:#4B7BF5; color:#4B7BF5;"
+                  ><svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M.06 24l1.68-6.14a11.86 11.86 0 1 1 4.45 4.45L.06 24zM6.6 20.16l.37.22a9.86 9.86 0 1 0-3.37-3.37l.23.37-1 3.65 3.77-.87z"
+                    />
+                    <path
+                      d="M17.47 14.38c-.3-.15-1.77-.87-2-.97s-.46-.15-.66.15-.76.96-.93 1.16-.34.22-.63.08a8.1 8.1 0 0 1-2.38-1.47 8.93 8.93 0 0 1-1.65-2.05c-.17-.3 0-.46.13-.6s.3-.35.44-.53a2 2 0 0 0 .3-.5.55.55 0 0 0 0-.52c0-.15-.66-1.6-.9-2.18s-.48-.5-.66-.5h-.56a1.08 1.08 0 0 0-.78.36 3.3 3.3 0 0 0-1 2.45 5.7 5.7 0 0 0 1.2 3 13.13 13.13 0 0 0 5.05 4.46 5.7 5.7 0 0 0 3.5.74 3 3 0 0 0 2-1.4 2.46 2.46 0 0 0 .17-1.4c-.07-.13-.27-.2-.56-.35z"
+                    /></svg
+                ></a>
+                <a
+                  href="mailto:weblypro1@gmail.com"
+                  aria-label="Email"
+                  style="{{ social }}"
+                  style-hover="border-color:#4B7BF5; color:#4B7BF5;"
+                  ><svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m22 7-10 5L2 7" /></svg
+                ></a>
+                <a
+                  href="https://www.instagram.com/webly_pro1"
+                  aria-label="Instagram"
+                  style="{{ social }}"
+                  style-hover="border-color:#4B7BF5; color:#4B7BF5;"
+                  ><svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" /></svg
+                ></a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577731470061"
+                  aria-label="Facebook"
+                  style="{{ social }}"
+                  style-hover="border-color:#4B7BF5; color:#4B7BF5;"
+                  ><svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H7v3h3v7h3v-7h3l1-3h-4v-2a1 1 0 0 1 1-1z"
+                    /></svg
+                ></a>
+              </div>
+            </div>
+
+            <div>
+              <div style="{{ fhead }}">Company</div>
+              <a
+                href="Home.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Home</a
+              >
+              <a
+                href="Services.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Services</a
+              >
+              <a
+                href="Portfolio.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Our Projects</a
+              >
+              <a
+                href="About.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >About Us</a
+              >
+              <a
+                href="Contact.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Contact</a
+              >
+            </div>
+
+            <div>
+              <div style="{{ fhead }}">Services</div>
+              <a
+                href="WebDevelopment.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Web Development</a
+              >
+              <a
+                href="ShopifyDevelopment.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Shopify Stores</a
+              >
+              <a
+                href="GraphicDesign.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Graphic Design</a
+              >
+              <a
+                href="DigitalMarketing.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Digital Marketing</a
+              >
+              <a
+                href="VideoEditing.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >Video &amp; AI</a
+              >
+              <a
+                href="SEO.dc.html"
+                style="{{ flink }}"
+                style-hover="color:#4B7BF5;"
+                >SEO Optimization</a
+              >
+            </div>
+
+            <div>
+              <div style="{{ fhead }}">Get in touch</div>
+              <a href="https://maps.google.com" style="{{ fcontact }}">
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#8B5CF6"
+                  stroke-width="2"
+                  style="flex-shrink: 0; margin-top: 2px"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span
+                  >147-A People's Colony No.1,<br />Near Faisal Hospital,
+                  Faisalabad, Pakistan</span
+                ></a
+              >
+              <a href="tel:+923136928882" style="{{ fcontact }}">
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#8B5CF6"
+                  stroke-width="2"
+                  style="flex-shrink: 0"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+                +92 313 6928882</a
+              >
+              <a href="mailto:weblypro1@gmail.com" style="{{ fcontact }}">
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#8B5CF6"
+                  stroke-width="2"
+                  style="flex-shrink: 0"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-10 5L2 7" />
+                </svg>
+                weblypro1@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <div
+            style="
+              border-top: 1px solid rgba(22, 27, 51, 0.08);
+              padding: 24px 0 32px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: space-between;
+              gap: 14px;
+            "
+          >
+            <div style="font-size: 13.5px; color: #8a93ab">
+              © 2026 WeblyPro. All rights reserved. Building digital ecosystems
+              that scale.
+            </div>
+            <div
+              style="
+                display: flex;
+                gap: 22px;
+                font-size: 13.5px;
+                color: #8a93ab;
+              "
+            >
+              <a href="#" style-hover="color:#4B7BF5;">Privacy Policy</a>
+              <a href="#" style-hover="color:#4B7BF5;">Terms of Service</a>
+              <a href="#" style-hover="color:#4B7BF5;">Sitemap</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </x-dc>
+    <script
+      type="text/x-dc"
+      data-dc-script
+      data-props='{"$preview":{"width":1240,"height":420}}'
+    >
+      class Component extends DCLogic {
+        componentDidMount(){
+          if (!document.getElementById('wp-foot-rules')){
+            const st=document.createElement('style'); st.id='wp-foot-rules';
+            st.textContent='@media(max-width:860px){[data-wp-fcols]{grid-template-columns:1fr 1fr !important;gap:36px !important;}}'
+              +'@media(max-width:520px){[data-wp-fcols]{grid-template-columns:1fr !important;}}';
+            document.head.appendChild(st);
+          }
+        }
+        renderVals(){
+          return {
+            social:'width:42px;height:42px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:#fff; border:1px solid rgba(22,27,51,.1); color:#5A6378; transition:all .25s;',
+            fhead:'font-family:Syne,sans-serif; font-weight:700; font-size:15px; margin-bottom:18px; color:#1B2240;',
+            flink:'display:block; font-size:14.5px; color:#5A6378; padding:7px 0; transition:color .2s; width:fit-content;',
+            fcontact:'display:flex; gap:11px; margin-bottom:15px; font-size:14px; line-height:1.6; color:#5A6378; transition:color .2s; align-items:flex-start;',
+          };
+        }
+      }
+    </script>
+  </body>
+</html>

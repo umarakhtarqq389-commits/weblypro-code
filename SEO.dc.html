@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>SEO Optimization — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2400px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'SEO Optimization',
+      title:'Climb the rankings. Grow your traffic.',
+      intro:'Technical SEO, on-page optimization and content that lifts your search rankings and drives sustained organic traffic — the kind that converts into real customers.',
+      heroImageNote:'Search Console / analytics dashboard · replace (landscape ~4:3)',
+      featuresTitle:'A complete SEO engine.',
+      features:[
+        {t:'Keyword research',d:'We find the searches your customers actually use — and target them.'},
+        {t:'On-page SEO',d:'Titles, meta, structure, internal links and content optimization.'},
+        {t:'Technical SEO',d:'Speed, mobile, schema, crawlability and Core Web Vitals fixes.'},
+        {t:'Search Console setup',d:'Google Search Console & Analytics configured and monitored.'},
+        {t:'Blog writing & content',d:'SEO-optimized blog posts and articles that rank and build authority.'},
+        {t:'Link building',d:'Quality backlinks that strengthen your domain authority.'},
+        {t:'Monthly reporting',d:'Transparent reports on rankings, traffic and conversions.'},
+      ],
+      galleryTitle:'Results & dashboards',
+      galleryNote:'Search Console, analytics and ranking dashboards from our SEO work. Replace these placeholders with your real screenshots (landscape works best).',
+      gallery:[
+        {label:'Search Console',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781801503/seo-1.png',ratio:'16/10',accent:'a'},
+        {label:'Analytics growth',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781801513/seo-2.png',ratio:'16/9',accent:'b'},
+        {label:'Keyword rankings',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781801515/seo-3.png',ratio:'16/9',accent:'c'},
+        {label:'Traffic report',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781801517/seo-4.png',ratio:'16/9',accent:'b'},
+        {label:'Core Web Vitals',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781801524/seo-5.png',ratio:'16/9',accent:'a'},
+        {label:'Blog post',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781801863/blog.png',ratio:'1/1',accent:'c'},
+      ],
+      packages:[
+        {name:'Basic',for:'Small sites starting out',price:'10,000',unit:'+',note:'Per month',items:['Keyword research','On-page SEO (up to 5 pages)','Search Console setup','Basic technical fixes','Monthly report','Google Analytics setup']},
+        {name:'Standard',for:'Growing businesses',price:'20,000',unit:'+',note:'Per month',featured:true,items:['Everything in Basic','On + off-page SEO','2 blog posts / month','Content optimization','Technical SEO audit','Link building','Detailed monthly reporting']},
+        {name:'Premium',for:'Competitive niches',price:'40,000',unit:'+',note:'Per month',items:['Everything in Standard','Full technical SEO','Aggressive link building','Content strategy & production','Conversion optimization','Priority support']},
+      ],
+      ctaTitle:'Want to be found on Google?',
+      ctaText:"Let's audit your site and build an SEO plan that grows your organic traffic month over month.",
+    }};
+  }
+}
+</script>
+</body>
+</html>

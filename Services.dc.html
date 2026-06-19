@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <script src="scripts/wp-anim.js"></script>
+  <title>Services &amp; Pricing — WeblyPro</title>
+</helmet>
+
+<div style="background:#fff; font-family:'DM Sans',sans-serif; color:#161B33; overflow-x:hidden;">
+  <dc-import name="WeblyNav" active="services" hint-size="100%,120px"></dc-import>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section style="position:relative; overflow:hidden; background:#fff; padding:clamp(48px,7vw,84px) 0 clamp(40px,5vw,56px);">
+    <div style="position:absolute; inset:0; background:radial-gradient(60% 50% at 50% -10%,rgba(75,123,245,.13),transparent 60%),radial-gradient(40% 40% at 85% 0%,rgba(139,92,246,.11),transparent 60%);"></div>
+    <div style="position:absolute; inset:0; background-image:linear-gradient(rgba(75,123,245,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(75,123,245,.045) 1px,transparent 1px); background-size:52px 52px; mask-image:radial-gradient(circle at 50% 0%,#000,transparent 70%); -webkit-mask-image:radial-gradient(circle at 50% 0%,#000,transparent 70%);"></div>
+    <div style="position:relative; max-width:880px; margin:0 auto; padding:0 clamp(24px,5vw,48px); text-align:center;">
+      <div style="display:inline-flex; align-items:center; gap:10px; margin-bottom:18px; justify-content:center;" data-reveal><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Our Services</span></div>
+      <h1 style="margin:0 auto; max-width:16ch; font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(36px,5.4vw,64px); line-height:1.04; letter-spacing:-.03em; color:#10162E;" data-reveal>Complete digital solutions, <span style="{{ grad }}">under one roof.</span></h1>
+      <p style="margin:24px auto 0; max-width:580px; font-size:clamp(16px,1.7vw,18px); line-height:1.7; color:#525C78;" data-reveal>From website development to AI-powered marketing, we deliver end-to-end services that drive growth, increase revenue and build your online presence.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:32px;" data-reveal>
+        <a href="Contact.dc.html" style="{{ btnPrimary }}" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">Get a Free Quote <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#pricing" style="{{ btnGhost }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">View Pricing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STAT STRIP ===== -->
+  <section style="background:#FAFBFF; border-top:1px solid rgba(22,27,51,.06); border-bottom:1px solid rgba(22,27,51,.06); padding:clamp(32px,4vw,44px) 0;">
+    <div style="max-width:1100px; margin:0 auto; padding:0 clamp(24px,5vw,48px); display:grid; grid-template-columns:repeat(4,1fr); gap:24px;" data-wp-mini>
+      <div style="text-align:center;" data-reveal><div style="{{ miniNum }}" data-count="200" data-suffix="+">200+</div><div style="{{ miniLbl }}">Projects delivered</div></div>
+      <div style="text-align:center;" data-reveal><div style="{{ miniNum }}" data-count="98" data-suffix="%">98%</div><div style="{{ miniLbl }}">Satisfaction</div></div>
+      <div style="text-align:center;" data-reveal><div style="{{ miniNum }}" data-count="50" data-suffix="+">50+</div><div style="{{ miniLbl }}">Happy clients</div></div>
+      <div style="text-align:center;" data-reveal><div style="{{ miniNum }}">24/7</div><div style="{{ miniLbl }}">Support</div></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES GRID ===== -->
+  <section style="padding:clamp(72px,9vw,120px) 0; background:#fff;">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="text-align:center; max-width:600px; margin:0 auto 52px;" data-reveal>
+        <div style="display:inline-flex; align-items:center; gap:10px; margin-bottom:18px; justify-content:center;"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">What we offer</span></div>
+        <h2 style="{{ h2 }} margin-bottom:0;">Nine ways we help you <span style="{{ grad }}">grow.</span></h2>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:22px;" data-wp-sgrid>
+        <a href="WebDevelopment.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.35);" data-reveal data-card><span style="{{ ico }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="m18 16 4-4-4-4M6 8l-4 4 4 4M14.5 4l-5 16"/></svg></span><h4 style="{{ cTitle }}">Website Development</h4><p style="{{ cDesc }}">Custom, lightning-fast sites built with React, Node.js &amp; modern stacks that scale with your business.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="ShopifyDevelopment.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.35);" data-reveal data-card><span style="{{ icoP }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 2-1.58l1.65-7.42H5.12"/></svg></span><h4 style="{{ cTitle }}">Shopify Development</h4><p style="{{ cDesc }}">High-converting e-commerce stores with payments, inventory and apps built in — ready to sell.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="UIUXDesign.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.35);" data-reveal data-card><span style="{{ ico }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg></span><h4 style="{{ cTitle }}">UI/UX Design</h4><p style="{{ cDesc }}">Wireframes, prototypes and pixel-perfect interfaces that convert.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="GraphicDesign.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.35);" data-reveal data-card><span style="{{ icoP }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17" cy="15" r="2.5"/><path d="M12 22a10 10 0 1 1 0-20"/></svg></span><h4 style="{{ cTitle }}">Graphic Designing</h4><p style="{{ cDesc }}">Logos, full brand identities, social creatives and print-ready banners that turn heads.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="DigitalMarketing.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.35);" data-reveal data-card><span style="{{ ico }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><path d="m3 11 18-5v12L3 14v-3zM11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><h4 style="{{ cTitle }}">Digital Marketing</h4><p style="{{ cDesc }}">Meta &amp; TikTok ad campaigns, retargeting and lead-gen built to pay back every rupee.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="SEO.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.35);" data-reveal data-card><span style="{{ icoP }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span><h4 style="{{ cTitle }}">SEO Optimization</h4><p style="{{ cDesc }}">Climb the rankings and drive sustained organic traffic that actually converts to revenue.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="VideoEditing.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.35);" data-reveal data-card><span style="{{ ico }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m22 8-6 4 6 4V8z"/></svg></span><h4 style="{{ cTitle }}">Video Editing &amp; AI</h4><p style="{{ cDesc }}">Reels, shorts, product showcases and AI-generated video that stops the scroll.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="AIServices.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(139,92,246,.35);" data-reveal data-card><span style="{{ icoP }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3 3 3 0 0 0-3 3 3 3 0 0 0 0 6 3 3 0 0 0 3 3 3 3 0 0 0 6 0 3 3 0 0 0 3-3 3 3 0 0 0 0-6 3 3 0 0 0-3-3 3 3 0 0 0-3-3z"/></svg></span><h4 style="{{ cTitle }}">AI Services</h4><p style="{{ cDesc }}">AI agents, automation, AI product photography and AI video creatives for modern brands.</p><span style="{{ cLink }}">Learn more →</span></a>
+        <a href="MobileApp.dc.html" style="{{ card }}" style-hover="transform:translateY(-6px); box-shadow:0 30px 60px -32px rgba(31,42,90,.4); border-color:rgba(75,123,245,.35);" data-reveal data-card><span style="{{ ico }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B7BF5" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M12 18h.01"/></svg></span><h4 style="{{ cTitle }}">Mobile App Development</h4><p style="{{ cDesc }}">Cross-platform iOS &amp; Android apps that feel native, load fast and scale effortlessly.</p><span style="{{ cLink }}">Learn more →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="pricing" style="padding:clamp(72px,9vw,120px) 0; background:#F6F7FE; border-top:1px solid rgba(22,27,51,.06);">
+    <div style="max-width:1240px; margin:0 auto; padding:0 clamp(24px,5vw,48px);">
+      <div style="text-align:center; max-width:620px; margin:0 auto 20px;" data-reveal>
+        <div style="display:inline-flex; align-items:center; gap:10px; margin-bottom:18px; justify-content:center;"><span style="{{ kDash }}"></span><span style="{{ kDot }}"></span><span style="{{ kText }}">Website packages</span></div>
+        <h2 style="{{ h2 }} margin-bottom:14px;">Simple, transparent <span style="{{ grad }}">pricing.</span></h2>
+        <p style="{{ lead }}">Honest pricing for businesses of every size. Prices are approximate and customized to your scope — talk to us for an exact quote.</p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:44px; align-items:start;" data-wp-pricegrid>
+        <!-- Starter -->
+        <div style="{{ priceCard }}" style-hover="transform:translateY(-6px); box-shadow:0 34px 70px -34px rgba(31,42,90,.4);" data-reveal data-price>
+          <div style="{{ pkgName }}">Starter</div>
+          <p style="{{ pkgFor }}">For small businesses &amp; startups</p>
+          <div style="display:flex; align-items:baseline; gap:6px; margin:18px 0 4px;"><span style="{{ pkgCur }}">Rs.</span><span style="{{ pkgPrice }}">15,000</span><span style="{{ pkgUnit }}">–20,000</span></div>
+          <div style="{{ pkgNote }}">3–5 page website</div>
+          <a href="Contact.dc.html" style="{{ pkgBtnGhost }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">Choose Starter</a>
+          <div style="{{ pkgDivider }}"></div>
+          <ul style="{{ pkgList }}">
+            <li style="{{ li }}">{{ check }} 3–5 page responsive website</li>
+            <li style="{{ li }}">{{ check }} Mobile responsive design</li>
+            <li style="{{ li }}">{{ check }} Basic SEO setup</li>
+            <li style="{{ li }}">{{ check }} Contact form &amp; WhatsApp</li>
+            <li style="{{ li }}">{{ check }} Google Maps included</li>
+            <li style="{{ li }}">{{ check }} 1 revision · 5–7 days delivery</li>
+          </ul>
+        </div>
+
+        <!-- E-Commerce (featured) -->
+        <div style="{{ priceCardHi }}" style-hover="transform:translateY(-10px); box-shadow:0 44px 90px -34px rgba(110,107,242,.6);" data-reveal data-price>
+          <div style="position:absolute; top:18px; right:18px; padding:6px 13px; border-radius:999px; background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.3); font-size:11.5px; font-weight:700; letter-spacing:.05em; color:#fff;">MOST POPULAR</div>
+          <div style="{{ pkgNameHi }}">E-Commerce</div>
+          <p style="{{ pkgForHi }}">For online stores ready to sell</p>
+          <div style="display:flex; align-items:baseline; gap:6px; margin:18px 0 4px;"><span style="{{ pkgCurHi }}">Rs.</span><span style="{{ pkgPriceHi }}">50,000</span><span style="{{ pkgUnitHi }}">+</span></div>
+          <div style="{{ pkgNoteHi }}">Full Shopify / WooCommerce store</div>
+          <a href="Contact.dc.html" style="{{ pkgBtnSolid }}" style-hover="transform:translateY(-2px);">Choose E-Commerce</a>
+          <div style="height:1px; background:rgba(255,255,255,.2); margin:22px 0;"></div>
+          <ul style="{{ pkgList }}">
+            <li style="{{ liHi }}">{{ checkHi }} Full Shopify/WooCommerce setup</li>
+            <li style="{{ liHi }}">{{ checkHi }} Product listings &amp; catalog</li>
+            <li style="{{ liHi }}">{{ checkHi }} Payment gateway integration</li>
+            <li style="{{ liHi }}">{{ checkHi }} CMS / APIs integration</li>
+            <li style="{{ liHi }}">{{ checkHi }} SEO optimized</li>
+            <li style="{{ liHi }}">{{ checkHi }} 2 revisions · 10–15 days delivery</li>
+          </ul>
+        </div>
+
+        <!-- Custom -->
+        <div style="{{ priceCard }}" style-hover="transform:translateY(-6px); box-shadow:0 34px 70px -34px rgba(31,42,90,.4);" data-reveal data-price>
+          <div style="{{ pkgName }}">Custom / Enterprise</div>
+          <p style="{{ pkgFor }}">For complex, custom-built platforms</p>
+          <div style="display:flex; align-items:baseline; gap:6px; margin:18px 0 4px;"><span style="{{ pkgCur }}">Rs.</span><span style="{{ pkgPrice }}">35,000</span><span style="{{ pkgUnit }}">–80,000+</span></div>
+          <div style="{{ pkgNote }}">Full custom coding</div>
+          <a href="Contact.dc.html" style="{{ pkgBtnGhost }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">Choose Custom</a>
+          <div style="{{ pkgDivider }}"></div>
+          <ul style="{{ pkgList }}">
+            <li style="{{ li }}">{{ check }} Full custom coding</li>
+            <li style="{{ li }}">{{ check }} Complex features &amp; logic</li>
+            <li style="{{ li }}">{{ check }} CMS / APIs integration</li>
+            <li style="{{ li }}">{{ check }} Admin dashboard</li>
+            <li style="{{ li }}">{{ check }} SEO optimized</li>
+            <li style="{{ li }}">{{ check }} Unlimited revisions · ongoing support</li>
+          </ul>
+        </div>
+      </div>
+
+      <p style="text-align:center; margin:40px auto 0; max-width:640px; font-size:14.5px; color:#8A93AB;" data-reveal>Looking for design, video, ads, SEO or social media pricing? Each service page has its own detailed packages — or <a href="Contact.dc.html" style="color:#4B7BF5; font-weight:600;">request a custom quote</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section style="position:relative; padding:clamp(70px,9vw,110px) 0; background:#fff; overflow:hidden;">
+    <div style="position:absolute; inset:0; background:radial-gradient(55% 75% at 50% 50%,rgba(75,123,245,.1),transparent 70%),radial-gradient(45% 55% at 82% 18%,rgba(139,92,246,.1),transparent 70%);"></div>
+    <div style="position:relative; max-width:840px; margin:0 auto; padding:0 clamp(24px,5vw,48px); text-align:center;" data-reveal>
+      <h2 style="font-family:'Syne',sans-serif; font-weight:700; font-size:clamp(32px,4.6vw,52px); line-height:1.08; letter-spacing:-.025em; color:#10162E; margin:0 0 18px;">Ready to start your <span style="{{ grad }}">project?</span></h2>
+      <p style="{{ lead }} max-width:520px; margin:0 auto 30px;">Tell us what you need and we'll send a tailored plan and quote within 24 hours — free, no commitment.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center;">
+        <a href="Contact.dc.html" style="{{ btnPrimary }}" style-hover="transform:translateY(-2px); box-shadow:0 24px 48px -14px rgba(110,107,242,.7);">Get Free Quote <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="https://wa.me/923136928882" style="{{ btnGhost }}" style-hover="border-color:#4B7BF5; color:#4B7BF5;">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <dc-import name="WeblyFooter" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  componentDidMount(){
+    if(!document.getElementById('wp-serv-rules')){
+      const st=document.createElement('style'); st.id='wp-serv-rules';
+      st.textContent=`
+        [data-card]>span:first-child{transition:transform .4s cubic-bezier(.22,1,.36,1);}
+        [data-card]:hover>span:first-child{transform:translateY(-4px) scale(1.08) rotate(-4deg);}
+        [data-card]>span:last-child{transition:transform .3s cubic-bezier(.22,1,.36,1);}
+        [data-card]:hover>span:last-child{transform:translateX(5px);}
+        @media(max-width:940px){
+          [data-wp-sgrid]{grid-template-columns:1fr 1fr !important;}
+          [data-wp-pricegrid]{grid-template-columns:1fr !important;max-width:520px;margin-left:auto;margin-right:auto;}
+        }
+        @media(max-width:600px){
+          [data-wp-sgrid]{grid-template-columns:1fr !important;}
+          [data-wp-mini]{grid-template-columns:1fr 1fr !important;gap:28px !important;}
+        }`;
+      document.head.appendChild(st);
+    }
+    this.runAnim();
+  }
+  runAnim(t){ t=t||0; if(window.WPAnim){window.WPAnim.reveal(this.base); window.WPAnim.counters(this.base);} else if(t<40){ setTimeout(()=>this.runAnim(t+1),50); } }
+
+  renderVals(){
+    const check=React.createElement('svg',{width:17,height:17,viewBox:'0 0 24 24',fill:'none',stroke:'#22C386','strokeWidth':2.6,style:{flexShrink:0,marginTop:'2px'}},React.createElement('path',{d:'m20 6-11 11-5-5'}));
+    const checkHi=React.createElement('svg',{width:17,height:17,viewBox:'0 0 24 24',fill:'none',stroke:'#fff','strokeWidth':2.6,style:{flexShrink:0,marginTop:'2px'}},React.createElement('path',{d:'m20 6-11 11-5-5'}));
+    return {
+      btnPrimary:'display:inline-flex; align-items:center; gap:9px; padding:16px 28px; border-radius:13px; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); color:#fff; font-weight:600; font-size:15.5px; box-shadow:0 16px 36px -14px rgba(110,107,242,.6); transition:transform .25s,box-shadow .25s;',
+      btnGhost:'display:inline-flex; align-items:center; gap:9px; padding:15px 26px; border-radius:13px; background:#fff; border:1px solid rgba(22,27,51,.14); color:#1B2240; font-weight:600; font-size:15.5px; transition:all .25s;',
+      kDash:'width:26px; height:2px; border-radius:2px; background:linear-gradient(90deg,#4B7BF5,#8B5CF6);',
+      kDot:'width:6px; height:6px; border-radius:50%; background:#8B5CF6; box-shadow:0 0 0 4px rgba(139,92,246,.13);',
+      kText:'font-family:DM Sans,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; color:#5B6BD6;',
+      h2:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(30px,4.2vw,48px); line-height:1.1; letter-spacing:-.025em; color:#10162E; margin:0 0 18px;',
+      grad:'background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      lead:'font-size:17px; line-height:1.7; color:#525C78; margin:0;',
+
+      miniNum:'font-family:Syne,sans-serif; font-weight:700; font-size:clamp(28px,3.4vw,40px); line-height:1; letter-spacing:-.02em; background:linear-gradient(120deg,#4B7BF5,#8B5CF6); -webkit-background-clip:text; background-clip:text; color:transparent;',
+      miniLbl:'margin-top:8px; font-size:13.5px; color:#6A7390; font-weight:500;',
+
+      card:'position:relative; display:flex; flex-direction:column; align-items:flex-start; padding:30px; border-radius:20px; background:#fff; border:1px solid rgba(22,27,51,.08); box-shadow:0 1px 2px rgba(5,13,31,.04),0 14px 40px -30px rgba(31,42,90,.3); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s,border-color .35s;',
+      ico:'width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:rgba(75,123,245,.1);margin-bottom:18px;',
+      icoP:'width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:rgba(139,92,246,.1);margin-bottom:18px;',
+      cTitle:'font-family:Syne,sans-serif; font-weight:700; font-size:18.5px; color:#1B2240; margin:0 0 9px;',
+      cDesc:'font-size:14px; line-height:1.65; color:#6A7390; margin:0 0 18px; flex:1;',
+      cLink:'display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:600; color:#4B7BF5;',
+
+      // pricing
+      priceCard:'position:relative; display:flex; flex-direction:column; padding:32px; border-radius:22px; background:#fff; border:1px solid rgba(22,27,51,.1); box-shadow:0 1px 2px rgba(5,13,31,.04),0 18px 44px -32px rgba(31,42,90,.3); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s;',
+      priceCardHi:'position:relative; display:flex; flex-direction:column; padding:34px 32px; border-radius:22px; background:linear-gradient(155deg,#4B7BF5,#7C5CF6 60%,#8B5CF6); color:#fff; box-shadow:0 30px 70px -30px rgba(110,107,242,.65); transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s; overflow:hidden;',
+      pkgName:'font-family:Syne,sans-serif; font-weight:700; font-size:21px; color:#10162E;',
+      pkgFor:'font-size:13.5px; color:#8A93AB; margin:6px 0 0;',
+      pkgCur:'font-family:Syne,sans-serif; font-weight:700; font-size:20px; color:#4B7BF5;',
+      pkgPrice:'font-family:Syne,sans-serif; font-weight:700; font-size:38px; letter-spacing:-.02em; color:#10162E; line-height:1;',
+      pkgUnit:'font-size:15px; color:#8A93AB; font-weight:500;',
+      pkgNote:'font-size:13px; color:#6A7390; margin-bottom:20px;',
+      pkgBtnGhost:'display:block; text-align:center; padding:13px; border-radius:12px; border:1px solid rgba(22,27,51,.16); font-weight:600; font-size:14.5px; color:#1B2240; transition:all .25s;',
+      pkgDivider:'height:1px; background:rgba(22,27,51,.08); margin:22px 0;',
+      pkgList:'list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:13px;',
+      li:'display:flex; gap:10px; align-items:flex-start; font-size:14px; line-height:1.45; color:#3D4661;',
+      check, checkHi,
+
+      pkgNameHi:'font-family:Syne,sans-serif; font-weight:700; font-size:21px; color:#fff;',
+      pkgForHi:'font-size:13.5px; color:rgba(255,255,255,.8); margin:6px 0 0;',
+      pkgCurHi:'font-family:Syne,sans-serif; font-weight:700; font-size:20px; color:#fff;',
+      pkgPriceHi:'font-family:Syne,sans-serif; font-weight:700; font-size:38px; letter-spacing:-.02em; color:#fff; line-height:1;',
+      pkgUnitHi:'font-size:18px; color:rgba(255,255,255,.85); font-weight:600;',
+      pkgNoteHi:'font-size:13px; color:rgba(255,255,255,.85); margin-bottom:20px;',
+      pkgBtnSolid:'display:block; text-align:center; padding:13px; border-radius:12px; background:#fff; color:#4257B8; font-weight:700; font-size:14.5px; transition:transform .25s;',
+      liHi:'display:flex; gap:10px; align-items:flex-start; font-size:14px; line-height:1.45; color:rgba(255,255,255,.95);',
+    };
+  }
+}
+</script>
+</body>
+</html>

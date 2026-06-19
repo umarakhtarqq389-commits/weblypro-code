@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <title>Shopify Development — WeblyPro</title>
+</helmet>
+<dc-import name="ServicePage" data="{{ data }}" hint-size="100%,2400px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals(){
+    return { data: {
+      eyebrow:'Shopify Development',
+      title:'Shopify stores built to sell.',
+      intro:'High-converting e-commerce stores set up end-to-end — theme, products, payments and apps — so you can start selling fast and scale without limits.',
+      heroImageNote:'Shopify store screenshot · replace (landscape ~4:3)',
+      featuresTitle:'Everything your store needs to win.',
+      features:[
+        {t:'Full store setup',d:'Complete Shopify or WooCommerce build configured for your products and brand.'},
+        {t:'Conversion-focused theme',d:'Clean, fast, mobile-first design tuned to turn visitors into buyers.'},
+        {t:'Payments & checkout',d:'Local & international payment gateways with a smooth, trusted checkout.'},
+        {t:'Product & catalog',d:'Organized collections, variants and listings that are easy to manage.'},
+        {t:'Apps & automation',d:'The right apps for shipping, reviews, upsells and email — no bloat.'},
+        {t:'SEO & speed',d:'Optimized for search and performance so you rank and load fast.'},
+      ],
+      galleryTitle:'Stores we have built',
+      galleryNote:'Replace these placeholders with screenshots of your real Shopify & WooCommerce stores (landscape works best).',
+      gallery:[
+        {label:'Store home page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854721/home.png',ratio:'2880/1554',accent:'a'},
+        {label:'Product page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854749/product.png',ratio:'2870/1444',accent:'b'},
+        {label:'Mega sale page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854726/mega_sale_page.png',ratio:'1224/1462',accent:'c'},
+        {label:'Checkout page',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854711/checkout.png',ratio:'1150/1406',accent:'b'},
+        {label:'Mobile store',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854729/mobile_screen.png',ratio:'732/1302',accent:'a'},
+        {label:'Video section',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781854749/video_section_added.png',ratio:'2866/1390',accent:'c'},
+        {label:'Haq Baba store',img:'https://res.cloudinary.com/dnvkirfyz/image/upload/f_auto,q_auto/v1781699267/haqbaba.com.png',ratio:'16/9',accent:'a'},
+      ],
+      packages:[
+        {name:'Basic Store',for:'New stores getting started',price:'50,000',unit:'+',note:'Full store setup',items:['Full Shopify/WooCommerce setup','Up to 30 products','Payment gateway integration','Theme customization','Basic SEO setup','2 revisions · 10–15 days']},
+        {name:'Growth',for:'Stores ready to scale',price:'80,000',unit:'+',note:'Optimized & app-powered',featured:true,items:['Everything in Basic','Conversion optimization','Premium apps & upsells','Custom sections','Advanced SEO','Email & abandoned cart setup']},
+        {name:'Premium',for:'Established, high-volume brands',price:'120,000',unit:'+',note:'Custom & fully managed',items:['Everything in Growth','Custom features & integrations','Store migration','Multi-currency / multi-language','Ongoing management','Priority support']},
+      ],
+      ctaTitle:'Ready to open (or upgrade) your store?',
+      ctaText:"Tell us about your products and we'll plan the perfect store for your business.",
+    }};
+  }
+}
+</script>
+</body>
+</html>
